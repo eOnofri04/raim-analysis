@@ -1,0 +1,28 @@
+# Zone 4: terminal outputs. Tables and figures ARE committed (they are what the
+# paper consumes and what a reader diffs), but LaTeX debris is not.
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# Diagnostic PNGs that weighted.py and diversity.py drop beside their JSON.
+# On-box readouts, not paper figures -- those are in scripts/figures/ and are
+# committed.
+derived/**/*.png
+
+# The on-box diagnostic readout of raim-verdicts' scripts/run.py (frontier, probe
+# and divergence per dataset). It belongs to the measurement repository, and no
+# generator here opens any of it. The derived JSONs the build DOES read are committed.
+derived/*/experiment/
+
+# make preview's output (figures drawn without LaTeX) and a failing figcheck's
+# diff images: never shipped.
+scripts/preview/
+scripts/figcheck-diffs/

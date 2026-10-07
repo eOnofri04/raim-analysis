@@ -1,0 +1,89 @@
+NOTICE — what this repository redistributes, and under whose terms
+==================================================================
+
+This repository is licensed under CC BY-NC-SA 4.0 (see LICENSE). That covers the
+analysis code and the measurements committed here. It does not, and cannot,
+relicense the benchmarks those measurements were taken on.
+
+`raim-verdicts/NOTICE` is the fuller record: it names each source, its licence as
+read from the Hugging Face API and the upstream repositories on 2026-08-04, and
+this project's position on the one source with restrictive terms. This file exists
+because a reader may hold only this repository, and because what is committed here
+needs its own account.
+
+
+1. What is committed here, and what it is not
+---------------------------------------------
+
+`verdicts/` holds our own measurements: for each released instance, which judge
+was asked, under which framing, and what it answered. No question, document,
+context passage or candidate answer from any source benchmark appears in it.
+
+It is additionally a *projection* rather than the measurement in full: the judge's
+generated text is dropped, because nothing here reads it, which is what takes the
+tree from about 160 MB to about 5 MB. The complete verdicts, generations included,
+ship in raim-verdicts (https://github.com/eOnofri04/raim-verdicts), committed
+as runs.tar.xz. Nothing analytical is lost
+— every table and figure in the paper regenerates from what is here, verified by
+rebuilding all of them from this projection alone.
+
+`derived/` holds what `make derive` computes from that: intervals, aggregation
+ladders, transfer results. It is a function of `verdicts/` and of the code in this
+repository, and of nothing else.
+
+So this repository redistributes no third-party content. It publishes our own
+measurements about benchmarks a reader obtains from their own publishers.
+
+
+2. The constraint that shapes all of this
+-----------------------------------------
+
+Four of the eight datasets come from `lytang/LLM-AggreFact`, which is **CC BY-ND
+4.0**, gated, and whose acceptance carries the condition that "Data in the
+benchmark should not be used in pretraining or fine-tuning any NLP models".
+
+Both clauses deserve a plain answer rather than silence.
+
+  NoDerivatives.  We distribute no adapted or transformed copy of the benchmark.
+  We distribute measurements about it. A reader must obtain the benchmark from its
+  publisher, accepting the gate, exactly as we did.
+
+  No pretraining or fine-tuning.  We do not train any language model on this data;
+  it is used for evaluation only. The one supervised component in the method is a
+  logistic regression over ten judges' binary verdicts, cross-fitted over held-out
+  folds. It has ten features, never sees text, and is the object of study rather
+  than a model being improved. We read the condition as aimed at benchmark
+  contamination and believe this respects it, but state the fact so a reader can
+  judge for themselves.
+
+This is why the record schema carries no source text, and why it must not grow a
+question, context or candidate field. That constraint is load-bearing, not
+incidental.
+
+
+3. The sources, in brief
+------------------------
+
+    source                  licence                     redistributed here?
+    ------------------------------------------------------------------------
+    MedHallu                none declared               no
+    RAGTruth                MIT (upstream repository)   no
+    TruthfulQA              Apache-2.0                  no
+    LLM-AggreFact           CC BY-ND 4.0, gated         no
+    FActScore annotations   MIT                         no
+    model weights           various                     no
+
+MedHallu and the RAGTruth mirror are commonly reported as MIT and in fact declare
+no licence at all; see `raim-verdicts/NOTICE` §2 for what was checked and how.
+
+Judgments obtained through paid APIs (e.g. Anthropic) are subject to those
+providers' terms as they stood at the time of the runs.
+
+
+4. Citing the benchmarks
+------------------------
+
+Anyone using these measurements should cite the benchmarks they were taken on:
+Pandit et al., MedHallu (EMNLP 2025); Niu et al., RAGTruth (ACL 2024); Lin et al.,
+TruthfulQA (ACL 2022); Tang et al., MiniCheck / LLM-AggreFact (EMNLP 2024); Min et
+al., FActScore (EMNLP 2023). Full entries are in `raim-verdicts/NOTICE` §2.
