@@ -1,0 +1,62 @@
+{
+  "condition": "per-dataset (def_on / claimcheck)",
+  "roster": [
+    "meta-llama/Llama-3.1-8B-Instruct",
+    "Qwen/Qwen2.5-7B-Instruct",
+    "mistralai/Mistral-7B-Instruct-v0.3",
+    "google/gemma-2-9b-it",
+    "microsoft/Phi-4-mini-instruct",
+    "01-ai/Yi-1.5-9B-Chat-16K",
+    "CohereLabs/c4ai-command-r7b-12-2024",
+    "zai-org/glm-4-9b-chat-hf",
+    "ibm-granite/granite-3.3-8b-instruct",
+    "tiiuae/Falcon3-7B-Instruct"
+  ],
+  "per_dataset": {
+    "medhallu": {
+      "missing": 567,
+      "total": 20000,
+      "rate": 0.02835
+    },
+    "aggrefact_wice": {
+      "missing": 179,
+      "total": 2220,
+      "rate": 0.08063063063063063
+    },
+    "ragtruth": {
+      "missing": 123,
+      "total": 13620,
+      "rate": 0.009030837004405287
+    },
+    "aggrefact_xsum": {
+      "missing": 53,
+      "total": 5460,
+      "rate": 0.009706959706959707
+    },
+    "aggrefact_cnn": {
+      "missing": 5,
+      "total": 1140,
+      "rate": 0.0043859649122807015
+    },
+    "aggrefact_expertqa": {
+      "missing": 651,
+      "total": 14620,
+      "rate": 0.0445280437756498
+    },
+    "factscore": {
+      "missing": 19,
+      "total": 3300,
+      "rate": 0.005757575757575757
+    },
+    "truthfulqa": {
+      "missing": 43,
+      "total": 16340,
+      "rate": 0.002631578947368421
+    }
+  },
+  "overall": {
+    "missing": 1640,
+    "total": 76700,
+    "rate": 0.02138200782268579
+  }
+}

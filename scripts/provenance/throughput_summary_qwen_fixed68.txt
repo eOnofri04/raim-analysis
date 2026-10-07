@@ -1,0 +1,6 @@
+==== throughput summary (batch=128, in≈500 tok) ====
+model                                     items/s  out tok/s  out tok/item
+Qwen2.5-32B-Instruct-AWQ                    14.82      889.4          60.0
+
+-> set TPS_SMALL_PANEL_MEMBER / TPS_OSS_FRONTIER in cost_table.py to the 'out tok/s' figures above (generate path);
+   set TOKENS_PER_ITEM_OUT to the measured 'out tok/item'.

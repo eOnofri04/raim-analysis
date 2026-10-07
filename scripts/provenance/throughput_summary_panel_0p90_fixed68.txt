@@ -1,0 +1,15 @@
+==== throughput summary (batch=128, in≈500 tok) ====
+model                                     items/s  out tok/s  out tok/item  score items/s
+Llama-3.1-8B-Instruct                       35.11     2455.0          69.9          78.18
+Qwen2.5-7B-Instruct                         40.17     2410.2          60.0           6.55
+Mistral-7B-Instruct-v0.3                    32.88     1841.4          56.0         107.68
+gemma-2-9b-it                               23.72     1288.2          54.3            6.8
+Phi-4-mini-instruct                         39.54     2757.4          69.7           7.65
+Yi-1.5-9B-Chat-16K                          28.81     1613.3          56.0          74.44
+c4ai-command-r7b-12-2024                    25.18     1779.4          70.7           6.83
+glm-4-9b-chat-hf                            31.71     2288.6          72.2           6.51
+granite-3.3-8b-instruct                     32.18     2059.8          64.0           6.75
+Falcon3-7B-Instruct                         30.32     1697.8          56.0          43.47
+
+-> set TPS_SMALL_PANEL_MEMBER / TPS_OSS_FRONTIER in cost_table.py to the 'out tok/s' figures above (generate path);
+   set TOKENS_PER_ITEM_OUT to the measured 'out tok/item'.

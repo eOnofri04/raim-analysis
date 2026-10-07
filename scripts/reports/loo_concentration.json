@@ -1,0 +1,370 @@
+{
+  "medhallu": {
+    "full_stacked_kappa": 0.7253755,
+    "costs_sorted_desc": [
+      {
+        "model": "ibm-granite/granite-3.3-8b-instruct",
+        "delta": 0.006110500000000019
+      },
+      {
+        "model": "microsoft/Phi-4-mini-instruct",
+        "delta": 0.006105000000000027
+      },
+      {
+        "model": "mistralai/Mistral-7B-Instruct-v0.3",
+        "delta": 0.004085999999999923
+      },
+      {
+        "model": "zai-org/glm-4-9b-chat-hf",
+        "delta": 0.0030154999999999488
+      },
+      {
+        "model": "CohereLabs/c4ai-command-r7b-12-2024",
+        "delta": 0.002942999999999918
+      },
+      {
+        "model": "01-ai/Yi-1.5-9B-Chat-16K",
+        "delta": 0.002042499999999947
+      },
+      {
+        "model": "google/gemma-2-9b-it",
+        "delta": 0.0018769999999999065
+      },
+      {
+        "model": "tiiuae/Falcon3-7B-Instruct",
+        "delta": 0.0010814999999998465
+      },
+      {
+        "model": "Qwen/Qwen2.5-7B-Instruct",
+        "delta": -0.003958999999999935
+      },
+      {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "delta": -0.005098500000000006
+      }
+    ],
+    "top_vs_runner_up_ratio": 1.0009009009008996
+  },
+  "aggrefact_wice": {
+    "full_stacked_kappa": 0.5395208821248144,
+    "costs_sorted_desc": [
+      {
+        "model": "google/gemma-2-9b-it",
+        "delta": 0.06244587655464057
+      },
+      {
+        "model": "Qwen/Qwen2.5-7B-Instruct",
+        "delta": 0.03562248416086378
+      },
+      {
+        "model": "ibm-granite/granite-3.3-8b-instruct",
+        "delta": 0.02794477099591952
+      },
+      {
+        "model": "mistralai/Mistral-7B-Instruct-v0.3",
+        "delta": 0.017694658094953186
+      },
+      {
+        "model": "zai-org/glm-4-9b-chat-hf",
+        "delta": 0.009405669220812207
+      },
+      {
+        "model": "microsoft/Phi-4-mini-instruct",
+        "delta": 4.746077316097885e-05
+      },
+      {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "delta": -0.0002220968679738089
+      },
+      {
+        "model": "tiiuae/Falcon3-7B-Instruct",
+        "delta": -0.008968858711490002
+      },
+      {
+        "model": "01-ai/Yi-1.5-9B-Chat-16K",
+        "delta": -0.00907495504263911
+      },
+      {
+        "model": "CohereLabs/c4ai-command-r7b-12-2024",
+        "delta": -0.027019459450468908
+      }
+    ],
+    "top_vs_runner_up_ratio": 1.7529905065757878
+  },
+  "ragtruth": {
+    "full_stacked_kappa": 0.40850660792951543,
+    "costs_sorted_desc": [
+      {
+        "model": "google/gemma-2-9b-it",
+        "delta": 0.06260719530102787
+      },
+      {
+        "model": "Qwen/Qwen2.5-7B-Instruct",
+        "delta": 0.01771292217327458
+      },
+      {
+        "model": "ibm-granite/granite-3.3-8b-instruct",
+        "delta": 0.009043318649045562
+      },
+      {
+        "model": "tiiuae/Falcon3-7B-Instruct",
+        "delta": 0.00589133627019095
+      },
+      {
+        "model": "mistralai/Mistral-7B-Instruct-v0.3",
+        "delta": 0.0057415565345080855
+      },
+      {
+        "model": "01-ai/Yi-1.5-9B-Chat-16K",
+        "delta": 1.3950073421475917e-05
+      },
+      {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "delta": -0.0032988252569750576
+      },
+      {
+        "model": "zai-org/glm-4-9b-chat-hf",
+        "delta": -0.004370778267254016
+      },
+      {
+        "model": "microsoft/Phi-4-mini-instruct",
+        "delta": -0.005673274596182054
+      },
+      {
+        "model": "CohereLabs/c4ai-command-r7b-12-2024",
+        "delta": -0.0073164464023494635
+      }
+    ],
+    "top_vs_runner_up_ratio": 3.534549222797929
+  },
+  "aggrefact_xsum": {
+    "full_stacked_kappa": 0.43736635452404005,
+    "costs_sorted_desc": [
+      {
+        "model": "Qwen/Qwen2.5-7B-Instruct",
+        "delta": 0.028690794145396825
+      },
+      {
+        "model": "01-ai/Yi-1.5-9B-Chat-16K",
+        "delta": 0.010861231105276814
+      },
+      {
+        "model": "microsoft/Phi-4-mini-instruct",
+        "delta": 0.01039775498750739
+      },
+      {
+        "model": "tiiuae/Falcon3-7B-Instruct",
+        "delta": 0.007383120472610694
+      },
+      {
+        "model": "mistralai/Mistral-7B-Instruct-v0.3",
+        "delta": 0.007330179758639255
+      },
+      {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "delta": 0.007285597244012287
+      },
+      {
+        "model": "ibm-granite/granite-3.3-8b-instruct",
+        "delta": 0.0036751091262812174
+      },
+      {
+        "model": "CohereLabs/c4ai-command-r7b-12-2024",
+        "delta": -0.0036631245994517836
+      },
+      {
+        "model": "google/gemma-2-9b-it",
+        "delta": -0.010974559069881817
+      },
+      {
+        "model": "zai-org/glm-4-9b-chat-hf",
+        "delta": -0.01833265346274593
+      }
+    ],
+    "top_vs_runner_up_ratio": 2.6415784607932435
+  },
+  "aggrefact_cnn": {
+    "full_stacked_kappa": 0.34876404616916734,
+    "costs_sorted_desc": [
+      {
+        "model": "google/gemma-2-9b-it",
+        "delta": 0.15755066527732847
+      },
+      {
+        "model": "microsoft/Phi-4-mini-instruct",
+        "delta": 0.05177132681838559
+      },
+      {
+        "model": "01-ai/Yi-1.5-9B-Chat-16K",
+        "delta": -0.0
+      },
+      {
+        "model": "CohereLabs/c4ai-command-r7b-12-2024",
+        "delta": -0.0
+      },
+      {
+        "model": "Qwen/Qwen2.5-7B-Instruct",
+        "delta": -0.0
+      },
+      {
+        "model": "ibm-granite/granite-3.3-8b-instruct",
+        "delta": -0.0
+      },
+      {
+        "model": "mistralai/Mistral-7B-Instruct-v0.3",
+        "delta": -0.0
+      },
+      {
+        "model": "tiiuae/Falcon3-7B-Instruct",
+        "delta": -0.0
+      },
+      {
+        "model": "zai-org/glm-4-9b-chat-hf",
+        "delta": -0.0
+      },
+      {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "delta": -0.017710632678838045
+      }
+    ],
+    "top_vs_runner_up_ratio": 3.0432031581886636
+  },
+  "aggrefact_expertqa": {
+    "full_stacked_kappa": 0.23544745504433143,
+    "costs_sorted_desc": [
+      {
+        "model": "Qwen/Qwen2.5-7B-Instruct",
+        "delta": 0.03849377880986002
+      },
+      {
+        "model": "CohereLabs/c4ai-command-r7b-12-2024",
+        "delta": 0.01796017066797148
+      },
+      {
+        "model": "mistralai/Mistral-7B-Instruct-v0.3",
+        "delta": 0.008256250583580371
+      },
+      {
+        "model": "google/gemma-2-9b-it",
+        "delta": 0.004592500107702985
+      },
+      {
+        "model": "tiiuae/Falcon3-7B-Instruct",
+        "delta": 0.004216156971804913
+      },
+      {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "delta": 0.0041435095845938075
+      },
+      {
+        "model": "ibm-granite/granite-3.3-8b-instruct",
+        "delta": 0.0028314311515171553
+      },
+      {
+        "model": "microsoft/Phi-4-mini-instruct",
+        "delta": 0.002716557680855297
+      },
+      {
+        "model": "01-ai/Yi-1.5-9B-Chat-16K",
+        "delta": -0.0013787744578132866
+      },
+      {
+        "model": "zai-org/glm-4-9b-chat-hf",
+        "delta": -0.0023620161888938673
+      }
+    ],
+    "top_vs_runner_up_ratio": 2.1432858028741504
+  },
+  "factscore": {
+    "full_stacked_kappa": 0.5031696969696969,
+    "costs_sorted_desc": [
+      {
+        "model": "google/gemma-2-9b-it",
+        "delta": 0.05394545454545446
+      },
+      {
+        "model": "ibm-granite/granite-3.3-8b-instruct",
+        "delta": 0.048442424242424176
+      },
+      {
+        "model": "CohereLabs/c4ai-command-r7b-12-2024",
+        "delta": 0.0426242424242424
+      },
+      {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "delta": 0.03061515151515154
+      },
+      {
+        "model": "tiiuae/Falcon3-7B-Instruct",
+        "delta": 0.03008787878787872
+      },
+      {
+        "model": "microsoft/Phi-4-mini-instruct",
+        "delta": 0.01866666666666661
+      },
+      {
+        "model": "mistralai/Mistral-7B-Instruct-v0.3",
+        "delta": 0.0183757575757576
+      },
+      {
+        "model": "zai-org/glm-4-9b-chat-hf",
+        "delta": 0.012221212121212022
+      },
+      {
+        "model": "01-ai/Yi-1.5-9B-Chat-16K",
+        "delta": -3.6363636363723195e-05
+      },
+      {
+        "model": "Qwen/Qwen2.5-7B-Instruct",
+        "delta": -0.005954545454545546
+      }
+    ],
+    "top_vs_runner_up_ratio": 1.1135993994745401
+  },
+  "truthfulqa": {
+    "full_stacked_kappa": 0.47151529987760105,
+    "costs_sorted_desc": [
+      {
+        "model": "google/gemma-2-9b-it",
+        "delta": 0.06578212974296216
+      },
+      {
+        "model": "tiiuae/Falcon3-7B-Instruct",
+        "delta": 0.010084455324357477
+      },
+      {
+        "model": "ibm-granite/granite-3.3-8b-instruct",
+        "delta": 0.0051432068543452725
+      },
+      {
+        "model": "Qwen/Qwen2.5-7B-Instruct",
+        "delta": 0.003678090575275461
+      },
+      {
+        "model": "microsoft/Phi-4-mini-instruct",
+        "delta": 0.0014320685434517366
+      },
+      {
+        "model": "01-ai/Yi-1.5-9B-Chat-16K",
+        "delta": -6.119951040384208e-05
+      },
+      {
+        "model": "mistralai/Mistral-7B-Instruct-v0.3",
+        "delta": -0.00348531211750297
+      },
+      {
+        "model": "zai-org/glm-4-9b-chat-hf",
+        "delta": -0.004828029375764875
+      },
+      {
+        "model": "meta-llama/Llama-3.1-8B-Instruct",
+        "delta": -0.0061958384332924665
+      },
+      {
+        "model": "CohereLabs/c4ai-command-r7b-12-2024",
+        "delta": -0.00859791921664621
+      }
+    ],
+    "top_vs_runner_up_ratio": 6.523121738074972
+  }
+}

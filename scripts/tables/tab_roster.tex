@@ -1,0 +1,33 @@
+% HAND-AUTHORED -- unlike its neighbours in this directory, this table is NOT
+% emitted by paper_tables.py: it carries static roster metadata, not a derived
+% result, so there is no JSON behind it. Its authority is raim-verdicts/raim/
+% panel.py (the PANEL list), from which the checkpoint ids and the index column
+% are transcribed verbatim; keep the two in step if the roster ever moves.
+% The reference column is p{} rather than l because several members are cited to
+% org-authored reports whose author field is long enough to overflow the 5.5in
+% text block on one line; it is meant to wrap.
+\begin{table}[!ht]
+\centering\scriptsize
+\caption{The ten-judge roster: one instruction-tuned open-weight checkpoint per model family, no two sharing a developer, held fixed across every dataset and experiment (\S\ref{ssec:panel}).
+Every member's native context window covers the $8192$-token cap the panel is run at.}
+\label{tab:roster}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{cll l p{2.1cm}}
+\toprule
+\# & tag & checkpoint & developer & ref. \\
+\midrule
+00 & \llama    & \mdname{meta-llama/Llama-3.1-8B-Instruct}    & Meta        & \citealp{Llama-Team-AIMeta_24} \\
+01 & \qwen     & \mdname{Qwen/Qwen2.5-7B-Instruct}            & Alibaba     & \citealp{Qwen-Team_24} \\
+02 & \mistral  & \mdname{mistralai/Mistral-7B-Instruct-v0.3}  & Mistral AI  & \citealp{Jiang_Sablayrolles_Mensch_etal_23} \\
+03 & \gemma    & \mdname{google/gemma-2-9b-it}                & Google      & \citealp{Gemma-Team-Google-DeepMind_24} \\
+04 & \phimini  & \mdname{microsoft/Phi-4-mini-instruct}       & Microsoft   & \citealp{Microsoft_25} \\
+05 & \yi       & \mdname{01-ai/Yi-1.5-9B-Chat-16K}            & 01.AI       & \citealp{01.AI_24} \\
+06 & \commandr & \mdname{CohereLabs/c4ai-command-r7b-12-2024} & Cohere      & \citealp{Cohere_24} \\
+07 & \glm      & \mdname{zai-org/glm-4-9b-chat-hf}            & Zhipu AI    & \citealp{GLM-Team_24} \\
+08 & \granite  & \mdname{ibm-granite/granite-3.3-8b-instruct} & IBM         & \citealp{Granite-Team-IBM_24} \\
+09 & \falcon   & \mdname{tiiuae/Falcon3-7B-Instruct}          & TII         & \citealp{Technology-Innovation-Institute_24} \\
+\bottomrule
+\end{tabular}
+\tablelegend{\#: roster position, also the shard index under which the member's verdicts are released;\\
+\emph{tag}: the name by which the member is referred to throughout.}
+\end{table}
