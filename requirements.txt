@@ -1,0 +1,16 @@
+# The analysis environment: every table and figure was built under exactly these
+# versions (Python 3.13.2). Pinned rather than bounded because the last digits of
+# the fitted stackers depend on them: a different NumPy, SciPy or scikit-learn can
+# move a derived number in its ninth decimal, which `make derivecheck` tolerates,
+# but no further.
+#
+# The figures are set through LaTeX (matplotlib's pgf backend under usetex), so
+# `make figures` and `make figcheck` also need pdflatex with the times, amsmath and
+# xcolor packages and TeX Live's recommended fonts (README.md, Installation), and
+# `make figcheck` needs pdftoppm (poppler) to rasterise them.
+numpy==2.5.0
+scipy==1.18.0
+pandas==3.0.3
+scikit-learn==1.9.0
+matplotlib==3.11.0
+seaborn==0.13.2
