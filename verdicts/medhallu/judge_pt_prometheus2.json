@@ -1,0 +1,28 @@
+{
+  "dataset": "medhallu",
+  "judge": "prometheus2",
+  "model": "prometheus-eval/prometheus-7b-v2.0",
+  "backend": "vllm",
+  "tag": "pt_prometheus2",
+  "family": "purpose_trained",
+  "score_range": [
+    1.0,
+    5.0
+  ],
+  "threshold": 3.0,
+  "n": 2000,
+  "coverage": 1.0,
+  "score_mean": 2.7175,
+  "parse_failures": 0,
+  "max_model_len": 8192,
+  "kappa": [
+    0.4480894999999999,
+    0.40900000000000003,
+    0.486
+  ],
+  "balanced_accuracy": [
+    0.72404475,
+    0.7044999999999999,
+    0.743
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "dataset": "aggrefact_xsum",
+  "judge": "Qwen/Qwen2.5-72B-Instruct-AWQ",
+  "backend": "vllm",
+  "tag": "qwen72b_awq",
+  "condition": "claimcheck",
+  "n": 546,
+  "coverage": 1.0,
+  "max_model_len": 8192,
+  "kappa": [
+    0.44629355758756595,
+    0.3685760583784349,
+    0.5214320420700947
+  ],
+  "balanced_accuracy": [
+    0.7233449810767565,
+    0.6853591573923243,
+    0.7594772057541531
+  ]
+}

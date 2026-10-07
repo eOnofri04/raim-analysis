@@ -1,0 +1,35 @@
+{
+  "dataset": "aggrefact_wice",
+  "judge": "claude-sonnet-4-6",
+  "backend": "api",
+  "tag": "sonnet",
+  "condition": "claimcheck",
+  "n": 222,
+  "coverage": 1.0,
+  "max_model_len": 4096,
+  "kappa": [
+    0.5477073026517325,
+    0.4439547960613859,
+    0.6509213645754982
+  ],
+  "balanced_accuracy": [
+    0.7742005224379168,
+    0.7219003428270943,
+    0.8222066280187933
+  ],
+  "usage": {
+    "calls": 222,
+    "api_errors": 0,
+    "input_tokens": 520387,
+    "output_tokens": 19298,
+    "input_tokens_per_item": 2344.09,
+    "output_tokens_per_item": 86.93,
+    "wall_seconds": 92.3
+  },
+  "cost": {
+    "usd_per_mtok_in": 3.0,
+    "usd_per_mtok_out": 15.0,
+    "cost_usd": 1.8506,
+    "cost_usd_per_1k_items": 8.3362
+  }
+}

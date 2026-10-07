@@ -1,0 +1,28 @@
+{
+  "dataset": "ragtruth",
+  "judge": "autoj",
+  "model": "GAIR/autoj-13b",
+  "backend": "vllm",
+  "tag": "pt_autoj",
+  "family": "purpose_trained",
+  "score_range": [
+    1.0,
+    10.0
+  ],
+  "threshold": 5.5,
+  "n": 1362,
+  "coverage": 0.9970631424375918,
+  "score_mean": 4.681148748159058,
+  "parse_failures": 4,
+  "max_model_len": 4096,
+  "kappa": [
+    -0.027188931310748437,
+    -0.06822030992325834,
+    0.014716456511553306
+  ],
+  "balanced_accuracy": [
+    0.4863961309467637,
+    0.4658328781285484,
+    0.5073581662046261
+  ]
+}

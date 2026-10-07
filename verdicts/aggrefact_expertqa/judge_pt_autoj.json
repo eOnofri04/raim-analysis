@@ -1,0 +1,29 @@
+{
+  "dataset": "aggrefact_expertqa",
+  "judge": "autoj",
+  "model": "GAIR/autoj-13b",
+  "backend": "vllm",
+  "tag": "pt_autoj",
+  "family": "purpose_trained",
+  "frame": "claimcheck",
+  "score_range": [
+    1.0,
+    10.0
+  ],
+  "threshold": 5.5,
+  "n": 1462,
+  "coverage": 0.9965800273597811,
+  "score_mean": 3.7357584076870283,
+  "parse_failures": 5,
+  "max_model_len": 4096,
+  "kappa": [
+    0.01108417638025618,
+    -0.005021929218026589,
+    0.028020331435940488
+  ],
+  "balanced_accuracy": [
+    0.5055240964163299,
+    0.4975082356837127,
+    0.5141090412817608
+  ]
+}

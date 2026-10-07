@@ -1,0 +1,19 @@
+{
+  "dataset": "aggrefact_expertqa",
+  "judge": "claude-sonnet-4-6",
+  "backend": "api",
+  "tag": "api",
+  "condition": "def_on",
+  "n": 1462,
+  "coverage": 0.9993160054719562,
+  "kappa": [
+    0.13729827239895417,
+    0.08853330879826392,
+    0.1867240214981346
+  ],
+  "balanced_accuracy": [
+    0.5686636509972386,
+    0.5440787010559126,
+    0.5934708457376365
+  ]
+}

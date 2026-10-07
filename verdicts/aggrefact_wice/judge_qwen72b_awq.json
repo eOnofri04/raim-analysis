@@ -1,0 +1,20 @@
+{
+  "dataset": "aggrefact_wice",
+  "judge": "Qwen/Qwen2.5-72B-Instruct-AWQ",
+  "backend": "vllm",
+  "tag": "qwen72b_awq",
+  "condition": "claimcheck",
+  "n": 222,
+  "coverage": 1.0,
+  "max_model_len": 8192,
+  "kappa": [
+    0.6290227967237649,
+    0.5307450120896072,
+    0.7252281982503002
+  ],
+  "balanced_accuracy": [
+    0.8149086167690212,
+    0.7676750469199562,
+    0.862764754416618
+  ]
+}

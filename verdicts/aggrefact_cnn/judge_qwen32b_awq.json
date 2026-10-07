@@ -1,0 +1,20 @@
+{
+  "dataset": "aggrefact_cnn",
+  "judge": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+  "backend": "vllm",
+  "tag": "qwen32b_awq",
+  "condition": "claimcheck",
+  "n": 114,
+  "coverage": 1.0,
+  "max_model_len": 8192,
+  "kappa": [
+    0.3796026023148967,
+    0.2181779233143879,
+    0.5348580784615582
+  ],
+  "balanced_accuracy": [
+    0.6907551623465423,
+    0.6107612651011017,
+    0.7688429037599843
+  ]
+}

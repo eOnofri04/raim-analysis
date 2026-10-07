@@ -1,0 +1,29 @@
+{
+  "dataset": "ragtruth",
+  "judge": "bespoke_minicheck",
+  "model": "bespokelabs/Bespoke-MiniCheck-7B",
+  "backend": "package",
+  "tag": "pt_bespoke_minicheck",
+  "family": "purpose_trained",
+  "subfamily": "grounded_specialist",
+  "score_range": [
+    0.0,
+    1.0
+  ],
+  "threshold": 0.5,
+  "n": 1362,
+  "coverage": 1.0,
+  "score_mean": 0.4612926196866803,
+  "parse_failures": 0,
+  "max_model_len": null,
+  "kappa": [
+    0.33799192364170333,
+    0.29368575624082227,
+    0.38619676945668135
+  ],
+  "balanced_accuracy": [
+    0.6689959618208516,
+    0.6468428781204112,
+    0.6930983847283407
+  ]
+}

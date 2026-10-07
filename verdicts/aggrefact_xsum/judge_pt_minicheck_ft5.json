@@ -1,0 +1,29 @@
+{
+  "dataset": "aggrefact_xsum",
+  "judge": "minicheck_ft5",
+  "model": "lytang/MiniCheck-Flan-T5-Large",
+  "backend": "package",
+  "tag": "pt_minicheck_ft5",
+  "family": "purpose_trained",
+  "subfamily": "grounded_specialist",
+  "score_range": [
+    0.0,
+    1.0
+  ],
+  "threshold": 0.5,
+  "n": 546,
+  "coverage": 1.0,
+  "score_mean": 0.5511390364459364,
+  "parse_failures": 0,
+  "max_model_len": null,
+  "kappa": [
+    0.484475615297725,
+    0.41012088107821304,
+    0.5591675608039508
+  ],
+  "balanced_accuracy": [
+    0.7424922019332816,
+    0.7048714886351468,
+    0.780205306647622
+  ]
+}

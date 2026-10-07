@@ -1,0 +1,29 @@
+{
+  "dataset": "medhallu",
+  "judge": "bespoke_minicheck",
+  "model": "bespokelabs/Bespoke-MiniCheck-7B",
+  "backend": "package",
+  "tag": "pt_bespoke_minicheck",
+  "family": "purpose_trained",
+  "subfamily": "grounded_specialist",
+  "score_range": [
+    0.0,
+    1.0
+  ],
+  "threshold": 0.5,
+  "n": 2000,
+  "coverage": 1.0,
+  "score_mean": 0.49226829053589194,
+  "parse_failures": 0,
+  "max_model_len": null,
+  "kappa": [
+    -0.009732499999999972,
+    -0.050000000000000044,
+    0.03200000000000003
+  ],
+  "balanced_accuracy": [
+    0.49513375,
+    0.475,
+    0.516
+  ]
+}

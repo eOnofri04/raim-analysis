@@ -1,0 +1,35 @@
+{
+  "dataset": "aggrefact_cnn",
+  "judge": "claude-sonnet-4-6",
+  "backend": "api",
+  "tag": "sonnet",
+  "condition": "claimcheck",
+  "n": 114,
+  "coverage": 1.0,
+  "max_model_len": 4096,
+  "kappa": [
+    0.4690541336943394,
+    0.3150762626453398,
+    0.6210390013548278
+  ],
+  "balanced_accuracy": [
+    0.7354249399164718,
+    0.6590797682709447,
+    0.8123271603277289
+  ],
+  "usage": {
+    "calls": 114,
+    "api_errors": 0,
+    "input_tokens": 110693,
+    "output_tokens": 9247,
+    "input_tokens_per_item": 970.99,
+    "output_tokens_per_item": 81.11,
+    "wall_seconds": 41.8
+  },
+  "cost": {
+    "usd_per_mtok_in": 3.0,
+    "usd_per_mtok_out": 15.0,
+    "cost_usd": 0.4708,
+    "cost_usd_per_1k_items": 4.1297
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "dataset": "aggrefact_cnn",
+  "judge": "bespoke_minicheck",
+  "model": "bespokelabs/Bespoke-MiniCheck-7B",
+  "backend": "package",
+  "tag": "pt_bespoke_minicheck",
+  "family": "purpose_trained",
+  "subfamily": "grounded_specialist",
+  "score_range": [
+    0.0,
+    1.0
+  ],
+  "threshold": 0.5,
+  "n": 114,
+  "coverage": 1.0,
+  "score_mean": 0.5576945114238308,
+  "parse_failures": 0,
+  "max_model_len": null,
+  "kappa": [
+    0.10273470867576072,
+    -0.07622309192366086,
+    0.28303014250454045
+  ],
+  "balanced_accuracy": [
+    0.551759858792485,
+    0.4619676300007182,
+    0.6429418780694952
+  ]
+}

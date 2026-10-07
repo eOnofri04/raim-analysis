@@ -1,0 +1,28 @@
+{
+  "dataset": "medhallu",
+  "judge": "autoj",
+  "model": "GAIR/autoj-13b",
+  "backend": "vllm",
+  "tag": "pt_autoj",
+  "family": "purpose_trained",
+  "score_range": [
+    1.0,
+    10.0
+  ],
+  "threshold": 5.5,
+  "n": 2000,
+  "coverage": 0.9995,
+  "score_mean": 3.722361180590295,
+  "parse_failures": 1,
+  "max_model_len": 4096,
+  "kappa": [
+    0.002967433633777769,
+    -0.008024267250976953,
+    0.014000000000000012
+  ],
+  "balanced_accuracy": [
+    0.5014844137923159,
+    0.4959839428857715,
+    0.507
+  ]
+}

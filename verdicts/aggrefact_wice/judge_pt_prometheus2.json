@@ -1,0 +1,29 @@
+{
+  "dataset": "aggrefact_wice",
+  "judge": "prometheus2",
+  "model": "prometheus-eval/prometheus-7b-v2.0",
+  "backend": "vllm",
+  "tag": "pt_prometheus2",
+  "family": "purpose_trained",
+  "frame": "claimcheck",
+  "score_range": [
+    1.0,
+    5.0
+  ],
+  "threshold": 3.0,
+  "n": 222,
+  "coverage": 1.0,
+  "score_mean": 3.108108108108108,
+  "parse_failures": 0,
+  "max_model_len": 8192,
+  "kappa": [
+    0.22429176693418948,
+    0.09791948148885334,
+    0.3424261303785052
+  ],
+  "balanced_accuracy": [
+    0.6125067612701639,
+    0.5491514729966366,
+    0.6718226694931497
+  ]
+}

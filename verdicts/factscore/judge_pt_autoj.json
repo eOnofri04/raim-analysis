@@ -1,0 +1,28 @@
+{
+  "dataset": "factscore",
+  "judge": "autoj",
+  "model": "GAIR/autoj-13b",
+  "backend": "vllm",
+  "tag": "pt_autoj",
+  "family": "purpose_trained",
+  "score_range": [
+    1.0,
+    10.0
+  ],
+  "threshold": 5.5,
+  "n": 330,
+  "coverage": 1.0,
+  "score_mean": 3.0636363636363635,
+  "parse_failures": 0,
+  "max_model_len": 4096,
+  "kappa": [
+    0.036939393939393945,
+    0.0,
+    0.07878787878787874
+  ],
+  "balanced_accuracy": [
+    0.518469696969697,
+    0.5,
+    0.5393939393939394
+  ]
+}

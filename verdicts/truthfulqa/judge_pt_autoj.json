@@ -1,0 +1,28 @@
+{
+  "dataset": "truthfulqa",
+  "judge": "autoj",
+  "model": "GAIR/autoj-13b",
+  "backend": "vllm",
+  "tag": "pt_autoj",
+  "family": "purpose_trained",
+  "score_range": [
+    1.0,
+    10.0
+  ],
+  "threshold": 5.5,
+  "n": 1634,
+  "coverage": 0.9993880048959608,
+  "score_mean": 3.73423147581139,
+  "parse_failures": 1,
+  "max_model_len": 4096,
+  "kappa": [
+    0.004888697808875933,
+    -0.029380935436805627,
+    0.04015210356957566
+  ],
+  "balanced_accuracy": [
+    0.5024451884674892,
+    0.48530938002495977,
+    0.5200833393332853
+  ]
+}

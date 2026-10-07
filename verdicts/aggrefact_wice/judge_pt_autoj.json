@@ -1,0 +1,29 @@
+{
+  "dataset": "aggrefact_wice",
+  "judge": "autoj",
+  "model": "GAIR/autoj-13b",
+  "backend": "vllm",
+  "tag": "pt_autoj",
+  "family": "purpose_trained",
+  "frame": "claimcheck",
+  "score_range": [
+    1.0,
+    10.0
+  ],
+  "threshold": 5.5,
+  "n": 222,
+  "coverage": 0.9819819819819819,
+  "score_mean": 3.628440366972477,
+  "parse_failures": 4,
+  "max_model_len": 4096,
+  "kappa": [
+    0.0024923566098753193,
+    -0.04656858854034615,
+    0.05193965548229639
+  ],
+  "balanced_accuracy": [
+    0.5012043368802882,
+    0.476421295416099,
+    0.5256200543346157
+  ]
+}

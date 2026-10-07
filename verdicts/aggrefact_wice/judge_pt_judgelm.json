@@ -1,0 +1,29 @@
+{
+  "dataset": "aggrefact_wice",
+  "judge": "judgelm",
+  "model": "BAAI/JudgeLM-7B-v1.0",
+  "backend": "vllm",
+  "tag": "pt_judgelm",
+  "family": "purpose_trained",
+  "frame": "claimcheck",
+  "score_range": [
+    1.0,
+    10.0
+  ],
+  "threshold": 5.5,
+  "n": 222,
+  "coverage": 0.8918918918918919,
+  "score_mean": 1.5,
+  "parse_failures": 24,
+  "max_model_len": 2048,
+  "kappa": [
+    -0.008577180960682674,
+    -0.07112758491276412,
+    0.05934244645521472
+  ],
+  "balanced_accuracy": [
+    0.4957093953208978,
+    0.4641016535933856,
+    0.5293759191176471
+  ]
+}

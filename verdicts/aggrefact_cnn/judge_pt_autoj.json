@@ -1,0 +1,29 @@
+{
+  "dataset": "aggrefact_cnn",
+  "judge": "autoj",
+  "model": "GAIR/autoj-13b",
+  "backend": "vllm",
+  "tag": "pt_autoj",
+  "family": "purpose_trained",
+  "frame": "claimcheck",
+  "score_range": [
+    1.0,
+    10.0
+  ],
+  "threshold": 5.5,
+  "n": 114,
+  "coverage": 0.9912280701754386,
+  "score_mean": 4.566371681415929,
+  "parse_failures": 1,
+  "max_model_len": 4096,
+  "kappa": [
+    -0.00020071129803739656,
+    -0.12311289032179915,
+    0.12069971286279992
+  ],
+  "balanced_accuracy": [
+    0.49979111932410547,
+    0.4368686868686869,
+    0.5603691514110535
+  ]
+}

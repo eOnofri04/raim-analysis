@@ -1,0 +1,19 @@
+{
+  "dataset": "ragtruth",
+  "judge": "claude-sonnet-4-6",
+  "backend": "api",
+  "tag": "api",
+  "condition": "def_on",
+  "n": 1362,
+  "coverage": 1.0,
+  "kappa": [
+    0.6008531571218796,
+    0.5624082232011747,
+    0.6387665198237886
+  ],
+  "balanced_accuracy": [
+    0.8004265785609398,
+    0.7812041116005874,
+    0.8193832599118943
+  ]
+}

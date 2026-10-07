@@ -1,0 +1,19 @@
+{
+  "dataset": "aggrefact_xsum",
+  "judge": "claude-sonnet-4-6",
+  "backend": "api",
+  "tag": "api",
+  "condition": "def_on",
+  "n": 546,
+  "coverage": 1.0,
+  "kappa": [
+    0.2694793845641434,
+    0.1981129506908612,
+    0.34150172877838436
+  ],
+  "balanced_accuracy": [
+    0.634897376339223,
+    0.6000293838685756,
+    0.6705523513015398
+  ]
+}

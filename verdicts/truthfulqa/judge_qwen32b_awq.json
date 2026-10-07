@@ -1,0 +1,19 @@
+{
+  "dataset": "truthfulqa",
+  "judge": "Qwen/Qwen2.5-32B-Instruct-AWQ",
+  "backend": "vllm",
+  "tag": "qwen32b_awq",
+  "condition": "def_on",
+  "n": 1634,
+  "coverage": 1.0,
+  "kappa": [
+    0.5214296205630355,
+    0.4785801713586292,
+    0.5630660954712361
+  ],
+  "balanced_accuracy": [
+    0.7607148102815177,
+    0.7392900856793145,
+    0.7815330477356179
+  ]
+}

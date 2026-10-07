@@ -1,0 +1,29 @@
+{
+  "dataset": "ragtruth",
+  "judge": "minicheck_ft5",
+  "model": "lytang/MiniCheck-Flan-T5-Large",
+  "backend": "package",
+  "tag": "pt_minicheck_ft5",
+  "family": "purpose_trained",
+  "subfamily": "grounded_specialist",
+  "score_range": [
+    0.0,
+    1.0
+  ],
+  "threshold": 0.5,
+  "n": 1362,
+  "coverage": 1.0,
+  "score_mean": 0.6131607281500897,
+  "parse_failures": 0,
+  "max_model_len": null,
+  "kappa": [
+    0.2615983847283406,
+    0.2143906020558003,
+    0.3069016152716594
+  ],
+  "balanced_accuracy": [
+    0.6307991923641703,
+    0.6071953010279001,
+    0.6534508076358296
+  ]
+}

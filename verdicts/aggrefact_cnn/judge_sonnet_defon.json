@@ -1,0 +1,19 @@
+{
+  "dataset": "aggrefact_cnn",
+  "judge": "claude-sonnet-4-6",
+  "backend": "api",
+  "tag": "api",
+  "condition": "def_on",
+  "n": 114,
+  "coverage": 1.0,
+  "kappa": [
+    0.2608071925187311,
+    0.1266877315614438,
+    0.41028284229456674
+  ],
+  "balanced_accuracy": [
+    0.630809868001561,
+    0.5644795360520094,
+    0.7026853773398866
+  ]
+}

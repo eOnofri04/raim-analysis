@@ -1,0 +1,28 @@
+{
+  "dataset": "factscore",
+  "judge": "prometheus2",
+  "model": "prometheus-eval/prometheus-7b-v2.0",
+  "backend": "vllm",
+  "tag": "pt_prometheus2",
+  "family": "purpose_trained",
+  "score_range": [
+    1.0,
+    5.0
+  ],
+  "threshold": 3.0,
+  "n": 330,
+  "coverage": 1.0,
+  "score_mean": 4.16969696969697,
+  "parse_failures": 0,
+  "max_model_len": 8192,
+  "kappa": [
+    0.22403333333333333,
+    0.1393939393939394,
+    0.3090909090909091
+  ],
+  "balanced_accuracy": [
+    0.6120166666666667,
+    0.5696969696969697,
+    0.6545454545454545
+  ]
+}

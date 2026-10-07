@@ -1,0 +1,28 @@
+{
+  "dataset": "ragtruth",
+  "judge": "prometheus2",
+  "model": "prometheus-eval/prometheus-7b-v2.0",
+  "backend": "vllm",
+  "tag": "pt_prometheus2",
+  "family": "purpose_trained",
+  "score_range": [
+    1.0,
+    5.0
+  ],
+  "threshold": 3.0,
+  "n": 1362,
+  "coverage": 0.9963289280469897,
+  "score_mean": 3.7833456153279292,
+  "parse_failures": 5,
+  "max_model_len": 8192,
+  "kappa": [
+    0.0035077309380233774,
+    -0.02643520700909784,
+    0.033668911167876646
+  ],
+  "balanced_accuracy": [
+    0.5017576646363808,
+    0.486782197460482,
+    0.5168512123843155
+  ]
+}

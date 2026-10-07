@@ -1,0 +1,29 @@
+{
+  "dataset": "aggrefact_xsum",
+  "judge": "prometheus2",
+  "model": "prometheus-eval/prometheus-7b-v2.0",
+  "backend": "vllm",
+  "tag": "pt_prometheus2",
+  "family": "purpose_trained",
+  "frame": "claimcheck",
+  "score_range": [
+    1.0,
+    5.0
+  ],
+  "threshold": 3.0,
+  "n": 546,
+  "coverage": 0.9963369963369964,
+  "score_mean": 2.7371323529411766,
+  "parse_failures": 2,
+  "max_model_len": 8192,
+  "kappa": [
+    0.16921144857805268,
+    0.08266779423747178,
+    0.254331498099876
+  ],
+  "balanced_accuracy": [
+    0.5847528680584698,
+    0.5413987810001852,
+    0.6269171132528017
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "truthfulqa",
+  "judge": "claude-sonnet-4-6",
+  "backend": "api",
+  "tag": "api",
+  "condition": "def_on",
+  "n": 1634,
+  "coverage": 1.0,
+  "kappa": [
+    0.6226309669522643,
+    0.5789473684210527,
+    0.6646266829865362
+  ],
+  "balanced_accuracy": [
+    0.8113154834761321,
+    0.7894736842105263,
+    0.832313341493268
+  ]
+}

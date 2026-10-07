@@ -1,0 +1,29 @@
+{
+  "dataset": "aggrefact_expertqa",
+  "judge": "judgelm",
+  "model": "BAAI/JudgeLM-7B-v1.0",
+  "backend": "vllm",
+  "tag": "pt_judgelm",
+  "family": "purpose_trained",
+  "frame": "claimcheck",
+  "score_range": [
+    1.0,
+    10.0
+  ],
+  "threshold": 5.5,
+  "n": 1462,
+  "coverage": 0.9753761969904241,
+  "score_mean": 1.6605890603085554,
+  "parse_failures": 36,
+  "max_model_len": 2048,
+  "kappa": [
+    0.031830274015513554,
+    0.004379896025000182,
+    0.058793970588001745
+  ],
+  "balanced_accuracy": [
+    0.5159333844544579,
+    0.5022266342170588,
+    0.5294252237496382
+  ]
+}

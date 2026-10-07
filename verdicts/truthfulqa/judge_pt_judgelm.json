@@ -1,0 +1,28 @@
+{
+  "dataset": "truthfulqa",
+  "judge": "judgelm",
+  "model": "BAAI/JudgeLM-7B-v1.0",
+  "backend": "vllm",
+  "tag": "pt_judgelm",
+  "family": "purpose_trained",
+  "score_range": [
+    1.0,
+    10.0
+  ],
+  "threshold": 5.5,
+  "n": 1634,
+  "coverage": 1.0,
+  "score_mean": 5.296205630354957,
+  "parse_failures": 0,
+  "max_model_len": 2048,
+  "kappa": [
+    0.091578335373317,
+    0.04528763769889843,
+    0.1346389228886169
+  ],
+  "balanced_accuracy": [
+    0.5457891676866585,
+    0.5226438188494492,
+    0.5673194614443084
+  ]
+}

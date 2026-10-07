@@ -1,0 +1,28 @@
+{
+  "dataset": "ragtruth",
+  "judge": "judgelm",
+  "model": "BAAI/JudgeLM-7B-v1.0",
+  "backend": "vllm",
+  "tag": "pt_judgelm",
+  "family": "purpose_trained",
+  "score_range": [
+    1.0,
+    10.0
+  ],
+  "threshold": 5.5,
+  "n": 1362,
+  "coverage": 1.0,
+  "score_mean": 7.383994126284875,
+  "parse_failures": 0,
+  "max_model_len": 2048,
+  "kappa": [
+    0.027761380323054332,
+    -0.001468428781204123,
+    0.05580029368575623
+  ],
+  "balanced_accuracy": [
+    0.5138806901615272,
+    0.49926578560939794,
+    0.5279001468428781
+  ]
+}

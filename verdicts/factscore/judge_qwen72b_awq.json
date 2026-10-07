@@ -1,0 +1,19 @@
+{
+  "dataset": "factscore",
+  "judge": "Qwen/Qwen2.5-72B-Instruct-AWQ",
+  "backend": "vllm",
+  "tag": "qwen72b_awq",
+  "condition": "def_on",
+  "n": 330,
+  "coverage": 1.0,
+  "kappa": [
+    0.3391909090909091,
+    0.24242424242424243,
+    0.4303030303030303
+  ],
+  "balanced_accuracy": [
+    0.6695954545454545,
+    0.6212121212121212,
+    0.7151515151515151
+  ]
+}

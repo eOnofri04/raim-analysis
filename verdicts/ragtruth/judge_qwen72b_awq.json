@@ -1,0 +1,19 @@
+{
+  "dataset": "ragtruth",
+  "judge": "Qwen/Qwen2.5-72B-Instruct-AWQ",
+  "backend": "vllm",
+  "tag": "qwen72b_awq",
+  "condition": "def_on",
+  "n": 1362,
+  "coverage": 1.0,
+  "kappa": [
+    0.351496328928047,
+    0.31277533039647576,
+    0.3906020558002937
+  ],
+  "balanced_accuracy": [
+    0.6757481644640236,
+    0.6563876651982379,
+    0.6953010279001468
+  ]
+}

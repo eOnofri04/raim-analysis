@@ -1,0 +1,28 @@
+{
+  "dataset": "factscore",
+  "judge": "judgelm",
+  "model": "BAAI/JudgeLM-7B-v1.0",
+  "backend": "vllm",
+  "tag": "pt_judgelm",
+  "family": "purpose_trained",
+  "score_range": [
+    1.0,
+    10.0
+  ],
+  "threshold": 5.5,
+  "n": 330,
+  "coverage": 1.0,
+  "score_mean": 1.9,
+  "parse_failures": 0,
+  "max_model_len": 2048,
+  "kappa": [
+    0.09076666666666666,
+    0.030303030303030276,
+    0.1515151515151515
+  ],
+  "balanced_accuracy": [
+    0.5453833333333333,
+    0.5151515151515151,
+    0.5757575757575758
+  ]
+}
