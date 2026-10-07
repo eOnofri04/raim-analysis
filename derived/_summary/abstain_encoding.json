@@ -1,0 +1,818 @@
+{
+  "aggrefact_cnn": {
+    "B": 2000,
+    "abstention_rate": 0.0043859649122807015,
+    "bacc": {
+      "categorical": [
+        0.6748853154553286,
+        0.6106484745678555,
+        0.7461006006078909
+      ],
+      "imputed": [
+        0.6748853154553286,
+        0.6106484745678555,
+        0.7461006006078909
+      ],
+      "indicator": [
+        0.6748853154553286,
+        0.6106484745678555,
+        0.7461006006078909
+      ]
+    },
+    "bacc_diffs": {
+      "categorical-imputed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "categorical-indicator": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "indicator-imputed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "clusters": 109,
+    "condition": "claimcheck",
+    "dataset": "aggrefact_cnn",
+    "diffs": {
+      "categorical-imputed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "categorical-indicator": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "indicator-imputed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "flipped_items": {
+      "categorical-imputed": 0,
+      "categorical-indicator": 0,
+      "indicator-imputed": 0
+    },
+    "folds": 5,
+    "kappa": {
+      "categorical": [
+        0.34876404616916734,
+        0.21684139784946246,
+        0.49939889025893947
+      ],
+      "imputed": [
+        0.34876404616916734,
+        0.21684139784946246,
+        0.49939889025893947
+      ],
+      "indicator": [
+        0.34876404616916734,
+        0.21684139784946246,
+        0.49939889025893947
+      ]
+    },
+    "models": [
+      "01-ai/Yi-1.5-9B-Chat-16K",
+      "CohereLabs/c4ai-command-r7b-12-2024",
+      "Qwen/Qwen2.5-7B-Instruct",
+      "google/gemma-2-9b-it",
+      "ibm-granite/granite-3.3-8b-instruct",
+      "meta-llama/Llama-3.1-8B-Instruct",
+      "microsoft/Phi-4-mini-instruct",
+      "mistralai/Mistral-7B-Instruct-v0.3",
+      "tiiuae/Falcon3-7B-Instruct",
+      "zai-org/glm-4-9b-chat-hf"
+    ],
+    "n": 114,
+    "n_abstentions": 5,
+    "n_votes": 1140,
+    "point_kappa": {
+      "categorical": 0.3508771929824561,
+      "imputed": 0.3508771929824561,
+      "indicator": 0.3508771929824561
+    },
+    "seed": 0
+  },
+  "aggrefact_expertqa": {
+    "B": 2000,
+    "abstention_rate": 0.0445280437756498,
+    "bacc": {
+      "categorical": [
+        0.6142723146237535,
+        0.5882501858665712,
+        0.6392013498004673
+      ],
+      "imputed": [
+        0.6177899173324067,
+        0.5910350345127586,
+        0.6433506948377081
+      ],
+      "indicator": [
+        0.6142723146237535,
+        0.5882501858665712,
+        0.6392013498004673
+      ]
+    },
+    "bacc_diffs": {
+      "categorical-imputed": [
+        -0.003517602708653115,
+        -0.014250248501191252,
+        0.006224251303036211
+      ],
+      "categorical-indicator": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "indicator-imputed": [
+        -0.003517602708653115,
+        -0.014250248501191252,
+        0.006224251303036211
+      ]
+    },
+    "clusters": 1360,
+    "condition": "claimcheck",
+    "dataset": "aggrefact_expertqa",
+    "diffs": {
+      "categorical-imputed": [
+        -0.007030366371564042,
+        -0.02849859170870029,
+        0.012418198897144258
+      ],
+      "categorical-indicator": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "indicator-imputed": [
+        -0.007030366371564042,
+        -0.02849859170870029,
+        0.012418198897144258
+      ]
+    },
+    "flipped_items": {
+      "categorical-imputed": 59,
+      "categorical-indicator": 0,
+      "indicator-imputed": 59
+    },
+    "folds": 5,
+    "kappa": {
+      "categorical": [
+        0.2284170886727674,
+        0.17643446311136116,
+        0.2785268722893643
+      ],
+      "imputed": [
+        0.23544745504433143,
+        0.18201709378444278,
+        0.28644817808605433
+      ],
+      "indicator": [
+        0.2284170886727674,
+        0.17643446311136116,
+        0.2785268722893643
+      ]
+    },
+    "models": [
+      "01-ai/Yi-1.5-9B-Chat-16K",
+      "CohereLabs/c4ai-command-r7b-12-2024",
+      "Qwen/Qwen2.5-7B-Instruct",
+      "google/gemma-2-9b-it",
+      "ibm-granite/granite-3.3-8b-instruct",
+      "meta-llama/Llama-3.1-8B-Instruct",
+      "microsoft/Phi-4-mini-instruct",
+      "mistralai/Mistral-7B-Instruct-v0.3",
+      "tiiuae/Falcon3-7B-Instruct",
+      "zai-org/glm-4-9b-chat-hf"
+    ],
+    "n": 1462,
+    "n_abstentions": 651,
+    "n_votes": 14620,
+    "point_kappa": {
+      "categorical": 0.22845417236662102,
+      "imputed": 0.23529411764705888,
+      "indicator": 0.22845417236662102
+    },
+    "seed": 0
+  },
+  "aggrefact_wice": {
+    "B": 2000,
+    "abstention_rate": 0.08063063063063063,
+    "bacc": {
+      "categorical": [
+        0.7658345198128496,
+        0.7070731872294372,
+        0.8211236880051446
+      ],
+      "imputed": [
+        0.7702758368755316,
+        0.7133042619713674,
+        0.8253884647800577
+      ],
+      "indicator": [
+        0.7658345198128496,
+        0.7070731872294372,
+        0.8211236880051446
+      ]
+    },
+    "bacc_diffs": {
+      "categorical-imputed": [
+        -0.004441317062681976,
+        -0.027027027027027084,
+        0.017904546036703804
+      ],
+      "categorical-indicator": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "indicator-imputed": [
+        -0.004441317062681976,
+        -0.027027027027027084,
+        0.017904546036703804
+      ]
+    },
+    "clusters": 221,
+    "condition": "claimcheck",
+    "dataset": "aggrefact_wice",
+    "diffs": {
+      "categorical-imputed": [
+        -0.008878407972472168,
+        -0.05405667501113988,
+        0.03595816284603833
+      ],
+      "categorical-indicator": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "indicator-imputed": [
+        -0.008878407972472168,
+        -0.05405667501113988,
+        0.03595816284603833
+      ]
+    },
+    "flipped_items": {
+      "categorical-imputed": 7,
+      "categorical-indicator": 0,
+      "indicator-imputed": 7
+    },
+    "folds": 5,
+    "kappa": {
+      "categorical": [
+        0.5306424741523422,
+        0.4125960978944024,
+        0.6398909608334757
+      ],
+      "imputed": [
+        0.5395208821248144,
+        0.42570829452826986,
+        0.6488811528456677
+      ],
+      "indicator": [
+        0.5306424741523422,
+        0.4125960978944024,
+        0.6398909608334757
+      ]
+    },
+    "models": [
+      "01-ai/Yi-1.5-9B-Chat-16K",
+      "CohereLabs/c4ai-command-r7b-12-2024",
+      "Qwen/Qwen2.5-7B-Instruct",
+      "google/gemma-2-9b-it",
+      "ibm-granite/granite-3.3-8b-instruct",
+      "meta-llama/Llama-3.1-8B-Instruct",
+      "microsoft/Phi-4-mini-instruct",
+      "mistralai/Mistral-7B-Instruct-v0.3",
+      "tiiuae/Falcon3-7B-Instruct",
+      "zai-org/glm-4-9b-chat-hf"
+    ],
+    "n": 222,
+    "n_abstentions": 179,
+    "n_votes": 2220,
+    "point_kappa": {
+      "categorical": 0.5315315315315315,
+      "imputed": 0.5405405405405406,
+      "indicator": 0.5315315315315315
+    },
+    "seed": 0
+  },
+  "aggrefact_xsum": {
+    "B": 2000,
+    "abstention_rate": 0.009706959706959707,
+    "bacc": {
+      "categorical": [
+        0.7225372283385131,
+        0.682412486938349,
+        0.7619006702083976
+      ],
+      "imputed": [
+        0.7189173613380088,
+        0.678649462240935,
+        0.7594881647343437
+      ],
+      "indicator": [
+        0.7225372283385131,
+        0.682412486938349,
+        0.7619006702083976
+      ]
+    },
+    "bacc_diffs": {
+      "categorical-imputed": [
+        0.003619867000504322,
+        -0.005631199218633473,
+        0.013404656324390316
+      ],
+      "categorical-indicator": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "indicator-imputed": [
+        0.003619867000504322,
+        -0.005631199218633473,
+        0.013404656324390316
+      ]
+    },
+    "clusters": 472,
+    "condition": "claimcheck",
+    "dataset": "aggrefact_xsum",
+    "diffs": {
+      "categorical-imputed": [
+        0.007239116166581084,
+        -0.011195633965359197,
+        0.02646806222069621
+      ],
+      "categorical-indicator": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "indicator-imputed": [
+        0.007239116166581084,
+        -0.011195633965359197,
+        0.02646806222069621
+      ]
+    },
+    "flipped_items": {
+      "categorical-imputed": 8,
+      "categorical-indicator": 0,
+      "indicator-imputed": 8
+    },
+    "folds": 5,
+    "kappa": {
+      "categorical": [
+        0.4446054706906211,
+        0.36578936926602285,
+        0.5244951401555663
+      ],
+      "imputed": [
+        0.43736635452404005,
+        0.35797776071033427,
+        0.5178089955018796
+      ],
+      "indicator": [
+        0.4446054706906211,
+        0.36578936926602285,
+        0.5244951401555663
+      ]
+    },
+    "models": [
+      "01-ai/Yi-1.5-9B-Chat-16K",
+      "CohereLabs/c4ai-command-r7b-12-2024",
+      "Qwen/Qwen2.5-7B-Instruct",
+      "google/gemma-2-9b-it",
+      "ibm-granite/granite-3.3-8b-instruct",
+      "meta-llama/Llama-3.1-8B-Instruct",
+      "microsoft/Phi-4-mini-instruct",
+      "mistralai/Mistral-7B-Instruct-v0.3",
+      "tiiuae/Falcon3-7B-Instruct",
+      "zai-org/glm-4-9b-chat-hf"
+    ],
+    "n": 546,
+    "n_abstentions": 53,
+    "n_votes": 5460,
+    "point_kappa": {
+      "categorical": 0.44688644688644685,
+      "imputed": 0.43956043956043955,
+      "indicator": 0.44688644688644685
+    },
+    "seed": 0
+  },
+  "factscore": {
+    "B": 2000,
+    "abstention_rate": 0.005757575757575757,
+    "bacc": {
+      "categorical": [
+        0.7487257575757574,
+        0.706060606060606,
+        0.787954545454545
+      ],
+      "imputed": [
+        0.7515848484848485,
+        0.709090909090909,
+        0.790909090909091
+      ],
+      "indicator": [
+        0.7487257575757574,
+        0.706060606060606,
+        0.787954545454545
+      ]
+    },
+    "bacc_diffs": {
+      "categorical-imputed": [
+        -0.0028590909090909075,
+        -0.0121212121212122,
+        0.0060606060606061
+      ],
+      "categorical-indicator": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "indicator-imputed": [
+        -0.0028590909090909075,
+        -0.0121212121212122,
+        0.0060606060606061
+      ]
+    },
+    "clusters": 165,
+    "condition": "def_on",
+    "dataset": "factscore",
+    "diffs": {
+      "categorical-imputed": [
+        -0.005718181818181818,
+        -0.02424242424242429,
+        0.0121212121212122
+      ],
+      "categorical-indicator": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "indicator-imputed": [
+        -0.005718181818181818,
+        -0.02424242424242429,
+        0.0121212121212122
+      ]
+    },
+    "flipped_items": {
+      "categorical-imputed": 3,
+      "categorical-indicator": 0,
+      "indicator-imputed": 3
+    },
+    "folds": 5,
+    "kappa": {
+      "categorical": [
+        0.49745151515151514,
+        0.4121212121212121,
+        0.57590909090909
+      ],
+      "imputed": [
+        0.5031696969696969,
+        0.4181818181818182,
+        0.5818181818181818
+      ],
+      "indicator": [
+        0.49745151515151514,
+        0.4121212121212121,
+        0.57590909090909
+      ]
+    },
+    "models": [
+      "01-ai/Yi-1.5-9B-Chat-16K",
+      "CohereLabs/c4ai-command-r7b-12-2024",
+      "Qwen/Qwen2.5-7B-Instruct",
+      "google/gemma-2-9b-it",
+      "ibm-granite/granite-3.3-8b-instruct",
+      "meta-llama/Llama-3.1-8B-Instruct",
+      "microsoft/Phi-4-mini-instruct",
+      "mistralai/Mistral-7B-Instruct-v0.3",
+      "tiiuae/Falcon3-7B-Instruct",
+      "zai-org/glm-4-9b-chat-hf"
+    ],
+    "n": 330,
+    "n_abstentions": 19,
+    "n_votes": 3300,
+    "point_kappa": {
+      "categorical": 0.49696969696969695,
+      "imputed": 0.503030303030303,
+      "indicator": 0.49696969696969695
+    },
+    "seed": 0
+  },
+  "medhallu": {
+    "B": 2000,
+    "abstention_rate": 0.02835,
+    "bacc": {
+      "categorical": [
+        0.8646132499999999,
+        0.8494999999999999,
+        0.8795
+      ],
+      "imputed": [
+        0.8626877500000001,
+        0.8474999999999999,
+        0.878
+      ],
+      "indicator": [
+        0.8646132499999999,
+        0.8494999999999999,
+        0.8795
+      ]
+    },
+    "bacc_diffs": {
+      "categorical-imputed": [
+        0.0019255000000000014,
+        -0.001000000000000112,
+        0.0050000000000001155
+      ],
+      "categorical-indicator": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "indicator-imputed": [
+        0.0019255000000000014,
+        -0.001000000000000112,
+        0.0050000000000001155
+      ]
+    },
+    "clusters": 1000,
+    "condition": "def_on",
+    "dataset": "medhallu",
+    "diffs": {
+      "categorical-imputed": [
+        0.003850999999999998,
+        -0.0020000000000000018,
+        0.010000000000000009
+      ],
+      "categorical-indicator": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "indicator-imputed": [
+        0.003850999999999998,
+        -0.0020000000000000018,
+        0.010000000000000009
+      ]
+    },
+    "flipped_items": {
+      "categorical-imputed": 12,
+      "categorical-indicator": 0,
+      "indicator-imputed": 12
+    },
+    "folds": 5,
+    "kappa": {
+      "categorical": [
+        0.7292265,
+        0.6990000000000001,
+        0.759
+      ],
+      "imputed": [
+        0.7253755,
+        0.6950000000000001,
+        0.756
+      ],
+      "indicator": [
+        0.7292265,
+        0.6990000000000001,
+        0.759
+      ]
+    },
+    "models": [
+      "01-ai/Yi-1.5-9B-Chat-16K",
+      "CohereLabs/c4ai-command-r7b-12-2024",
+      "Qwen/Qwen2.5-7B-Instruct",
+      "google/gemma-2-9b-it",
+      "ibm-granite/granite-3.3-8b-instruct",
+      "meta-llama/Llama-3.1-8B-Instruct",
+      "microsoft/Phi-4-mini-instruct",
+      "mistralai/Mistral-7B-Instruct-v0.3",
+      "tiiuae/Falcon3-7B-Instruct",
+      "zai-org/glm-4-9b-chat-hf"
+    ],
+    "n": 2000,
+    "n_abstentions": 567,
+    "n_votes": 20000,
+    "point_kappa": {
+      "categorical": 0.729,
+      "imputed": 0.725,
+      "indicator": 0.729
+    },
+    "seed": 0
+  },
+  "ragtruth": {
+    "B": 2000,
+    "abstention_rate": 0.009030837004405287,
+    "bacc": {
+      "categorical": [
+        0.7034941262848752,
+        0.6813325991189427,
+        0.7239353891336271
+      ],
+      "imputed": [
+        0.7042533039647577,
+        0.6820851688693098,
+        0.724669603524229
+      ],
+      "indicator": [
+        0.7034941262848752,
+        0.6813325991189427,
+        0.7239353891336271
+      ]
+    },
+    "bacc_diffs": {
+      "categorical-imputed": [
+        -0.0007591776798825263,
+        -0.0036710719530103075,
+        0.0022026431718061845
+      ],
+      "categorical-indicator": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "indicator-imputed": [
+        -0.0007591776798825263,
+        -0.0036710719530103075,
+        0.0022026431718061845
+      ]
+    },
+    "clusters": 681,
+    "condition": "def_on",
+    "dataset": "ragtruth",
+    "diffs": {
+      "categorical-imputed": [
+        -0.001518355359765052,
+        -0.007342143906020615,
+        0.004405286343612369
+      ],
+      "categorical-indicator": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "indicator-imputed": [
+        -0.001518355359765052,
+        -0.007342143906020615,
+        0.004405286343612369
+      ]
+    },
+    "flipped_items": {
+      "categorical-imputed": 5,
+      "categorical-indicator": 0,
+      "indicator-imputed": 5
+    },
+    "folds": 5,
+    "kappa": {
+      "categorical": [
+        0.4069882525697504,
+        0.3626651982378855,
+        0.4478707782672541
+      ],
+      "imputed": [
+        0.40850660792951543,
+        0.36417033773861973,
+        0.4493392070484582
+      ],
+      "indicator": [
+        0.4069882525697504,
+        0.3626651982378855,
+        0.4478707782672541
+      ]
+    },
+    "models": [
+      "01-ai/Yi-1.5-9B-Chat-16K",
+      "CohereLabs/c4ai-command-r7b-12-2024",
+      "Qwen/Qwen2.5-7B-Instruct",
+      "google/gemma-2-9b-it",
+      "ibm-granite/granite-3.3-8b-instruct",
+      "meta-llama/Llama-3.1-8B-Instruct",
+      "microsoft/Phi-4-mini-instruct",
+      "mistralai/Mistral-7B-Instruct-v0.3",
+      "tiiuae/Falcon3-7B-Instruct",
+      "zai-org/glm-4-9b-chat-hf"
+    ],
+    "n": 1362,
+    "n_abstentions": 123,
+    "n_votes": 13620,
+    "point_kappa": {
+      "categorical": 0.40675477239353897,
+      "imputed": 0.408223201174743,
+      "indicator": 0.40675477239353897
+    },
+    "seed": 0
+  },
+  "truthfulqa": {
+    "B": 2000,
+    "abstention_rate": 0.002631578947368421,
+    "bacc": {
+      "categorical": [
+        0.7375569155446756,
+        0.7160342717258262,
+        0.7594859241126071
+      ],
+      "imputed": [
+        0.7357576499388004,
+        0.7141982864137086,
+        0.7576499388004896
+      ],
+      "indicator": [
+        0.7375569155446756,
+        0.7160342717258262,
+        0.7594859241126071
+      ]
+    },
+    "bacc_diffs": {
+      "categorical-imputed": [
+        0.0017992656058751515,
+        -0.001835985312117483,
+        0.00550795593635256
+      ],
+      "categorical-indicator": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "indicator-imputed": [
+        0.0017992656058751515,
+        -0.001835985312117483,
+        0.00550795593635256
+      ]
+    },
+    "clusters": 817,
+    "condition": "def_on",
+    "dataset": "truthfulqa",
+    "diffs": {
+      "categorical-imputed": [
+        0.003598531211750305,
+        -0.003671970624235077,
+        0.01101591187270512
+      ],
+      "categorical-indicator": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "indicator-imputed": [
+        0.003598531211750305,
+        -0.003671970624235077,
+        0.01101591187270512
+      ]
+    },
+    "flipped_items": {
+      "categorical-imputed": 11,
+      "categorical-indicator": 0,
+      "indicator-imputed": 11
+    },
+    "folds": 5,
+    "kappa": {
+      "categorical": [
+        0.4751138310893513,
+        0.43206854345165235,
+        0.5189718482252141
+      ],
+      "imputed": [
+        0.47151529987760105,
+        0.4283965728274174,
+        0.5152998776009792
+      ],
+      "indicator": [
+        0.4751138310893513,
+        0.43206854345165235,
+        0.5189718482252141
+      ]
+    },
+    "models": [
+      "01-ai/Yi-1.5-9B-Chat-16K",
+      "CohereLabs/c4ai-command-r7b-12-2024",
+      "Qwen/Qwen2.5-7B-Instruct",
+      "google/gemma-2-9b-it",
+      "ibm-granite/granite-3.3-8b-instruct",
+      "meta-llama/Llama-3.1-8B-Instruct",
+      "microsoft/Phi-4-mini-instruct",
+      "mistralai/Mistral-7B-Instruct-v0.3",
+      "tiiuae/Falcon3-7B-Instruct",
+      "zai-org/glm-4-9b-chat-hf"
+    ],
+    "n": 1634,
+    "n_abstentions": 43,
+    "n_votes": 16340,
+    "point_kappa": {
+      "categorical": 0.4749082007343941,
+      "imputed": 0.47123623011015914,
+      "indicator": 0.4749082007343941
+    },
+    "seed": 0
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "held_out": "medhallu",
+  "train_datasets": [
+    "ragtruth",
+    "aggrefact_xsum",
+    "aggrefact_wice"
+  ],
+  "models": [
+    "01-ai/Yi-1.5-9B-Chat-16K",
+    "CohereLabs/c4ai-command-r7b-12-2024",
+    "Qwen/Qwen2.5-7B-Instruct",
+    "google/gemma-2-9b-it",
+    "ibm-granite/granite-3.3-8b-instruct",
+    "meta-llama/Llama-3.1-8B-Instruct",
+    "microsoft/Phi-4-mini-instruct",
+    "mistralai/Mistral-7B-Instruct-v0.3",
+    "tiiuae/Falcon3-7B-Instruct",
+    "zai-org/glm-4-9b-chat-hf"
+  ],
+  "n": 2000,
+  "R": 1000,
+  "B": 2000,
+  "condition": null,
+  "interface": "binary",
+  "oracle_model": "ibm-granite/granite-3.3-8b-instruct",
+  "best_on_avg_model": "google/gemma-2-9b-it",
+  "transferred_coefficients": {
+    "01-ai/Yi-1.5-9B-Chat-16K": 0.03366022708870868,
+    "CohereLabs/c4ai-command-r7b-12-2024": -0.09488876672751206,
+    "Qwen/Qwen2.5-7B-Instruct": 0.4552349071961413,
+    "google/gemma-2-9b-it": 1.306494675307366,
+    "ibm-granite/granite-3.3-8b-instruct": 0.5164786590059472,
+    "meta-llama/Llama-3.1-8B-Instruct": 0.8226468375859628,
+    "microsoft/Phi-4-mini-instruct": 0.4448496664419565,
+    "mistralai/Mistral-7B-Instruct-v0.3": -0.5351915480055561,
+    "tiiuae/Falcon3-7B-Instruct": 0.2604533134156853,
+    "zai-org/glm-4-9b-chat-hf": 0.13440817729143056
+  },
+  "transferred_intercept": -0.9833655609234786,
+  "committed": {
+    "transferred_stacked": 2000,
+    "indomain_stacked": 2000,
+    "best_single_cv": 1653,
+    "oracle_best": 1653,
+    "unweighted": 2000,
+    "best_on_avg_single": 2000,
+    "sonnet": 2000
+  },
+  "kappa": {
+    "transferred_stacked": [
+      0.6140610000000001,
+      0.5820000000000001,
+      0.645
+    ],
+    "indomain_stacked": [
+      0.7253755,
+      0.6950000000000001,
+      0.756
+    ],
+    "best_single_cv": [
+      0.6933185035389463,
+      0.6583997632972941,
+      0.7265883220332972
+    ],
+    "oracle_best": [
+      0.6933185035389463,
+      0.6583997632972941,
+      0.7265883220332972
+    ],
+    "unweighted": [
+      0.7083775000000001,
+      0.6759999999999999,
+      0.74
+    ],
+    "best_on_avg_single": [
+      0.65601,
+      0.625,
+      0.688
+    ],
+    "sonnet": [
+      0.7611245,
+      0.7329749999999999,
+      0.79
+    ]
+  },
+  "bacc": {
+    "transferred_stacked": [
+      0.8070305,
+      0.791,
+      0.8225
+    ],
+    "indomain_stacked": [
+      0.8626877500000001,
+      0.8474999999999999,
+      0.878
+    ],
+    "best_single_cv": [
+      0.70011,
+      0.6795,
+      0.72
+    ],
+    "oracle_best": [
+      0.70011,
+      0.6795,
+      0.72
+    ],
+    "unweighted": [
+      0.8541887499999999,
+      0.838,
+      0.87
+    ],
+    "best_on_avg_single": [
+      0.828005,
+      0.8125,
+      0.8440000000000001
+    ],
+    "sonnet": [
+      0.8805622500000001,
+      0.8664875000000001,
+      0.895
+    ]
+  },
+  "diffs": {
+    "transferred_stacked-best_single_cv": [
+      -0.07925750353894626,
+      -0.11180447518797691,
+      -0.04540430464681946
+    ],
+    "transferred_stacked-oracle_best": [
+      -0.07925750353894626,
+      -0.11180447518797691,
+      -0.04540430464681946
+    ],
+    "indomain_stacked-transferred_stacked": [
+      0.11131450000000001,
+      0.08200000000000007,
+      0.139
+    ],
+    "transferred_stacked-unweighted": [
+      -0.09431650000000003,
+      -0.121,
+      -0.06600000000000006
+    ],
+    "transferred_stacked-best_on_avg_single": [
+      -0.041949000000000014,
+      -0.05899999999999994,
+      -0.025000000000000022
+    ],
+    "indomain_stacked-best_single_cv": [
+      0.032056996461053734,
+      0.0038499405708450926,
+      0.05996239667906065
+    ],
+    "transferred_stacked-sonnet": [
+      -0.14706350000000004,
+      -0.18000000000000005,
+      -0.11499999999999999
+    ]
+  },
+  "bacc_diffs": {
+    "transferred_stacked-best_single_cv": [
+      0.1069205,
+      0.08750000000000002,
+      0.12651249999999997
+    ],
+    "transferred_stacked-oracle_best": [
+      0.1069205,
+      0.08750000000000002,
+      0.12651249999999997
+    ],
+    "indomain_stacked-transferred_stacked": [
+      0.05565724999999998,
+      0.041000000000000036,
+      0.0695
+    ],
+    "transferred_stacked-unweighted": [
+      -0.047158249999999964,
+      -0.0605,
+      -0.03300000000000003
+    ],
+    "transferred_stacked-best_on_avg_single": [
+      -0.0209745,
+      -0.02949999999999997,
+      -0.012499999999999956
+    ],
+    "indomain_stacked-best_single_cv": [
+      0.16257775,
+      0.14400000000000002,
+      0.18199999999999994
+    ],
+    "transferred_stacked-sonnet": [
+      -0.07353174999999999,
+      -0.08999999999999997,
+      -0.057499999999999885
+    ]
+  },
+  "verdict": {
+    "transfer_win": false,
+    "clean_transfer": false,
+    "cost_significant": true
+  }
+}

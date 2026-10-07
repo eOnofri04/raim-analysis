@@ -1,0 +1,295 @@
+{
+  "condition": "def_on",
+  "folds": 5,
+  "B": 2000,
+  "R": 1000,
+  "n": 2000,
+  "models": [
+    "01-ai/Yi-1.5-9B-Chat-16K",
+    "CohereLabs/c4ai-command-r7b-12-2024",
+    "Qwen/Qwen2.5-7B-Instruct",
+    "google/gemma-2-9b-it",
+    "ibm-granite/granite-3.3-8b-instruct",
+    "meta-llama/Llama-3.1-8B-Instruct",
+    "microsoft/Phi-4-mini-instruct",
+    "mistralai/Mistral-7B-Instruct-v0.3",
+    "tiiuae/Falcon3-7B-Instruct",
+    "zai-org/glm-4-9b-chat-hf"
+  ],
+  "mean_weights": {
+    "acc_weighted": {
+      "01-ai/Yi-1.5-9B-Chat-16K": 0.4449999999999999,
+      "CohereLabs/c4ai-command-r7b-12-2024": 0.4854136570936518,
+      "Qwen/Qwen2.5-7B-Instruct": 0.586,
+      "google/gemma-2-9b-it": 0.6559999999999999,
+      "ibm-granite/granite-3.3-8b-instruct": 0.6920882671229185,
+      "meta-llama/Llama-3.1-8B-Instruct": 0.6100000000000001,
+      "microsoft/Phi-4-mini-instruct": 0.651301595666262,
+      "mistralai/Mistral-7B-Instruct-v0.3": 0.619,
+      "tiiuae/Falcon3-7B-Instruct": 0.6412839935868192,
+      "zai-org/glm-4-9b-chat-hf": 0.51451891739138
+    },
+    "logodds_weighted": {
+      "01-ai/Yi-1.5-9B-Chat-16K": 0.9570157276352699,
+      "CohereLabs/c4ai-command-r7b-12-2024": 1.0601213797576114,
+      "Qwen/Qwen2.5-7B-Instruct": 1.3433857476042497,
+      "google/gemma-2-9b-it": 1.5716335134241182,
+      "ibm-granite/granite-3.3-8b-instruct": 1.7041581896546116,
+      "meta-llama/Llama-3.1-8B-Instruct": 1.4179692593560018,
+      "microsoft/Phi-4-mini-instruct": 1.5553716787719907,
+      "mistralai/Mistral-7B-Instruct-v0.3": 1.4468557708499397,
+      "tiiuae/Falcon3-7B-Instruct": 1.520845493866696,
+      "zai-org/glm-4-9b-chat-hf": 1.137888197284872
+    }
+  },
+  "oracle_model": "ibm-granite/granite-3.3-8b-instruct",
+  "best_on_avg_model": "google/gemma-2-9b-it",
+  "committed": {
+    "unweighted": 2000,
+    "acc_weighted": 2000,
+    "logodds_weighted": 2000,
+    "stacked": 2000,
+    "best_single_cv": 1653,
+    "oracle_best": 1653,
+    "best_on_avg_single": 2000,
+    "average_member": 2000
+  },
+  "kappa": {
+    "unweighted": [
+      0.7083775000000001,
+      0.6759999999999999,
+      0.74
+    ],
+    "acc_weighted": [
+      0.7103809999999999,
+      0.6779999999999999,
+      0.741
+    ],
+    "logodds_weighted": [
+      0.7114095,
+      0.679,
+      0.742
+    ],
+    "stacked": [
+      0.7253755,
+      0.6950000000000001,
+      0.756
+    ],
+    "best_single_cv": [
+      0.6933185035389463,
+      0.6583997632972941,
+      0.7265883220332972
+    ],
+    "oracle_best": [
+      0.6933185035389463,
+      0.6583997632972941,
+      0.7265883220332972
+    ],
+    "best_on_avg_single": [
+      0.65601,
+      0.625,
+      0.688
+    ],
+    "average_member": [
+      0.5904832500085193,
+      0.567230415572498,
+      0.6125383058902524
+    ]
+  },
+  "diffs": {
+    "acc_weighted-unweighted": [
+      0.002003500000000002,
+      -0.004999999999999893,
+      0.008999999999999897
+    ],
+    "logodds_weighted-unweighted": [
+      0.0030320000000000017,
+      -0.0040000000000000036,
+      0.010000000000000009
+    ],
+    "stacked-unweighted": [
+      0.016997999999999992,
+      0.0,
+      0.03400000000000003
+    ],
+    "acc_weighted-best_single_cv": [
+      0.017062496461053747,
+      -0.01184181707918869,
+      0.045892488738230805
+    ],
+    "logodds_weighted-best_single_cv": [
+      0.01809099646105375,
+      -0.010590737626899532,
+      0.04681398821904119
+    ],
+    "stacked-best_single_cv": [
+      0.032056996461053734,
+      0.0038499405708450926,
+      0.05996239667906065
+    ],
+    "best_single_cv-unweighted": [
+      -0.015058996461053745,
+      -0.0442225415247943,
+      0.01458796444175838
+    ],
+    "stacked-oracle_best": [
+      0.032056996461053734,
+      0.0038499405708450926,
+      0.05996239667906065
+    ],
+    "unweighted-oracle_best": [
+      0.015058996461053745,
+      -0.014587964441758385,
+      0.044222541524794275
+    ],
+    "best_single_cv-oracle_best": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "stacked-best_on_avg_single": [
+      0.0693655,
+      0.04399999999999993,
+      0.09699999999999998
+    ],
+    "unweighted-best_on_avg_single": [
+      0.0523675,
+      0.025000000000000133,
+      0.07899999999999996
+    ],
+    "best_single_cv-best_on_avg_single": [
+      0.037308503538946255,
+      0.0031212145982076975,
+      0.0709262472619802
+    ],
+    "stacked-average_member": [
+      0.13489224999148064,
+      0.11656262099119201,
+      0.1542285255888321
+    ],
+    "unweighted-average_member": [
+      0.11789424999148064,
+      0.10065564367705201,
+      0.13540346411407453
+    ]
+  },
+  "bacc": {
+    "unweighted": [
+      0.8541887499999999,
+      0.838,
+      0.87
+    ],
+    "acc_weighted": [
+      0.8551905,
+      0.839,
+      0.8705
+    ],
+    "logodds_weighted": [
+      0.8557047499999999,
+      0.8394999999999999,
+      0.871
+    ],
+    "stacked": [
+      0.8626877500000001,
+      0.8474999999999999,
+      0.878
+    ],
+    "best_single_cv": [
+      0.70011,
+      0.6795,
+      0.72
+    ],
+    "oracle_best": [
+      0.70011,
+      0.6795,
+      0.72
+    ],
+    "best_on_avg_single": [
+      0.828005,
+      0.8125,
+      0.8440000000000001
+    ],
+    "average_member": [
+      0.772350175,
+      0.76105,
+      0.7832499999999999
+    ]
+  },
+  "bacc_diffs": {
+    "acc_weighted-unweighted": [
+      0.0010017500000000013,
+      -0.0024999999999999467,
+      0.0044999999999999485
+    ],
+    "logodds_weighted-unweighted": [
+      0.001516000000000005,
+      -0.0020000000000000018,
+      0.0050000000000000044
+    ],
+    "stacked-unweighted": [
+      0.00849900000000001,
+      0.0,
+      0.017000000000000015
+    ],
+    "acc_weighted-best_single_cv": [
+      0.15508049999999998,
+      0.1369999999999999,
+      0.17449999999999988
+    ],
+    "logodds_weighted-best_single_cv": [
+      0.15559474999999998,
+      0.13749999999999996,
+      0.17499999999999993
+    ],
+    "stacked-best_single_cv": [
+      0.16257775,
+      0.14400000000000002,
+      0.18199999999999994
+    ],
+    "best_single_cv-unweighted": [
+      -0.15407874999999996,
+      -0.1735,
+      -0.13549999999999995
+    ],
+    "stacked-oracle_best": [
+      0.16257775,
+      0.14400000000000002,
+      0.18199999999999994
+    ],
+    "unweighted-oracle_best": [
+      0.15407874999999996,
+      0.13549999999999995,
+      0.1735
+    ],
+    "best_single_cv-oracle_best": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "stacked-best_on_avg_single": [
+      0.034682749999999984,
+      0.02199999999999991,
+      0.04849999999999999
+    ],
+    "unweighted-best_on_avg_single": [
+      0.02618374999999997,
+      0.012499999999999956,
+      0.03949999999999998
+    ],
+    "best_single_cv-best_on_avg_single": [
+      -0.127895,
+      -0.14900000000000002,
+      -0.10799999999999998
+    ],
+    "stacked-average_member": [
+      0.09033757499999999,
+      0.08109999999999984,
+      0.10045124999999992
+    ],
+    "unweighted-average_member": [
+      0.08183857499999998,
+      0.07284999999999997,
+      0.09115000000000006
+    ]
+  }
+}

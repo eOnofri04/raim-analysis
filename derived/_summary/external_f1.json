@@ -1,0 +1,336 @@
+{
+  "medhallu": {
+    "dataset": "medhallu",
+    "condition": "def_on",
+    "n": 2000,
+    "prevalence": 0.5,
+    "members": {
+      "Llama": {
+        "precision": 0.7787934186471663,
+        "recall": 0.852,
+        "f1": 0.813753581661891,
+        "tp": 852,
+        "fp": 242,
+        "fn": 148,
+        "tn": 758,
+        "coverage": 1.0,
+        "shared_with_published": true,
+        "f1_at_anchor": 0.8137535816618912
+      },
+      "Qwen": {
+        "precision": 0.740953947368421,
+        "recall": 0.901,
+        "f1": 0.8131768953068592,
+        "tp": 901,
+        "fp": 315,
+        "fn": 99,
+        "tn": 685,
+        "coverage": 1.0,
+        "shared_with_published": true,
+        "f1_at_anchor": 0.8131768953068592
+      },
+      "Mistral": {
+        "precision": 0.7906103286384977,
+        "recall": 0.842,
+        "f1": 0.8154963680387409,
+        "tp": 842,
+        "fp": 223,
+        "fn": 158,
+        "tn": 777,
+        "coverage": 1.0,
+        "shared_with_published": false,
+        "f1_at_anchor": 0.8154963680387409
+      },
+      "Gemma": {
+        "precision": 0.7747068676716918,
+        "recall": 0.925,
+        "f1": 0.8432087511394714,
+        "tp": 925,
+        "fp": 269,
+        "fn": 75,
+        "tn": 731,
+        "coverage": 1.0,
+        "shared_with_published": true,
+        "f1_at_anchor": 0.8432087511394714
+      },
+      "Phi": {
+        "precision": 0.8442796610169492,
+        "recall": 0.797,
+        "f1": 0.8199588477366255,
+        "tp": 797,
+        "fp": 147,
+        "fn": 203,
+        "tn": 853,
+        "coverage": 0.998,
+        "shared_with_published": false,
+        "f1_at_anchor": 0.8199588477366255
+      },
+      "Yi": {
+        "precision": 0.8714524207011686,
+        "recall": 0.522,
+        "f1": 0.6529080675422139,
+        "tp": 522,
+        "fp": 77,
+        "fn": 478,
+        "tn": 923,
+        "coverage": 1.0,
+        "shared_with_published": false,
+        "f1_at_anchor": 0.652908067542214
+      },
+      "Command-R": {
+        "precision": 0.729253112033195,
+        "recall": 0.703,
+        "f1": 0.7158859470468432,
+        "tp": 703,
+        "fp": 261,
+        "fn": 297,
+        "tn": 739,
+        "coverage": 0.904,
+        "shared_with_published": false,
+        "f1_at_anchor": 0.7158859470468432
+      },
+      "GLM": {
+        "precision": 0.8740849194729137,
+        "recall": 0.597,
+        "f1": 0.7094474153297682,
+        "tp": 597,
+        "fp": 86,
+        "fn": 403,
+        "tn": 914,
+        "coverage": 0.9965,
+        "shared_with_published": false,
+        "f1_at_anchor": 0.7094474153297682
+      },
+      "Granite": {
+        "precision": 0.8500651890482399,
+        "recall": 0.652,
+        "f1": 0.7379739671760046,
+        "tp": 652,
+        "fp": 115,
+        "fn": 348,
+        "tn": 885,
+        "coverage": 0.8265,
+        "shared_with_published": false,
+        "f1_at_anchor": 0.7379739671760046
+      },
+      "Falcon": {
+        "precision": 0.8058536585365854,
+        "recall": 0.826,
+        "f1": 0.8158024691358026,
+        "tp": 826,
+        "fp": 199,
+        "fn": 174,
+        "tn": 801,
+        "coverage": 0.9915,
+        "shared_with_published": false,
+        "f1_at_anchor": 0.8158024691358026
+      }
+    },
+    "stacked": {
+      "precision": 0.8628628628628628,
+      "recall": 0.862,
+      "f1": 0.8624312156078039,
+      "tp": 862,
+      "fp": 137,
+      "fn": 138,
+      "tn": 863,
+      "coverage": 1.0,
+      "f1_at_anchor": 0.8624312156078039
+    },
+    "unweighted": {
+      "precision": 0.8470588235294118,
+      "recall": 0.864,
+      "f1": 0.8554455445544554,
+      "tp": 864,
+      "fp": 156,
+      "fn": 136,
+      "tn": 844,
+      "coverage": 1.0,
+      "f1_at_anchor": 0.8554455445544554
+    },
+    "sonnet": {
+      "precision": 0.8249359521776259,
+      "recall": 0.966,
+      "f1": 0.889912482726854,
+      "tp": 966,
+      "fp": 205,
+      "fn": 34,
+      "tn": 795,
+      "coverage": 1.0,
+      "f1_at_anchor": 0.889912482726854
+    },
+    "best_member": {
+      "tag": "Gemma",
+      "f1": 0.8432087511394714,
+      "f1_at_anchor": 0.8432087511394714
+    },
+    "anchor_prevalence": 0.5
+  },
+  "ragtruth": {
+    "dataset": "ragtruth",
+    "condition": "def_on",
+    "n": 1362,
+    "prevalence": 0.5,
+    "members": {
+      "Llama": {
+        "precision": 0.7159090909090909,
+        "recall": 0.5550660792951542,
+        "f1": 0.6253101736972705,
+        "tp": 378,
+        "fp": 150,
+        "fn": 303,
+        "tn": 531,
+        "coverage": 1.0,
+        "shared_with_published": true,
+        "f1_at_anchor": 0.43158158061846935
+      },
+      "Qwen": {
+        "precision": 0.7122969837587007,
+        "recall": 0.45080763582966227,
+        "f1": 0.552158273381295,
+        "tp": 307,
+        "fp": 124,
+        "fn": 374,
+        "tn": 557,
+        "coverage": 1.0,
+        "shared_with_published": true,
+        "f1_at_anchor": 0.39343105632991593
+      },
+      "Mistral": {
+        "precision": 0.6551724137931034,
+        "recall": 0.19530102790014683,
+        "f1": 0.3009049773755656,
+        "tp": 133,
+        "fp": 70,
+        "fn": 548,
+        "tn": 611,
+        "coverage": 0.9955947136563876,
+        "shared_with_published": false,
+        "f1_at_anchor": 0.2338958267467594
+      },
+      "Gemma": {
+        "precision": 0.8537859007832899,
+        "recall": 0.4801762114537445,
+        "f1": 0.6146616541353384,
+        "tp": 327,
+        "fp": 56,
+        "fn": 354,
+        "tn": 625,
+        "coverage": 1.0,
+        "shared_with_published": true,
+        "f1_at_anchor": 0.5163402171598892
+      },
+      "Phi": {
+        "precision": 0.8695652173913043,
+        "recall": 0.1762114537444934,
+        "f1": 0.29304029304029305,
+        "tp": 120,
+        "fp": 18,
+        "fn": 561,
+        "tn": 663,
+        "coverage": 0.9992657856093979,
+        "shared_with_published": false,
+        "f1_at_anchor": 0.27145525944565174
+      },
+      "Yi": {
+        "precision": 0.6285714285714286,
+        "recall": 0.06461086637298091,
+        "f1": 0.11717709720372836,
+        "tp": 44,
+        "fp": 26,
+        "fn": 637,
+        "tn": 655,
+        "coverage": 1.0,
+        "shared_with_published": false,
+        "f1_at_anchor": 0.10413370384651181
+      },
+      "Command-R": {
+        "precision": 0.6686046511627907,
+        "recall": 0.16886930983847284,
+        "f1": 0.2696365767878077,
+        "tp": 115,
+        "fp": 57,
+        "fn": 566,
+        "tn": 624,
+        "coverage": 0.9229074889867841,
+        "shared_with_published": false,
+        "f1_at_anchor": 0.21713994759788272
+      },
+      "GLM": {
+        "precision": 0.7101449275362319,
+        "recall": 0.07195301027900147,
+        "f1": 0.13066666666666668,
+        "tp": 49,
+        "fp": 20,
+        "fn": 632,
+        "tn": 661,
+        "coverage": 1.0,
+        "shared_with_published": false,
+        "f1_at_anchor": 0.11916928542150569
+      },
+      "Granite": {
+        "precision": 0.7526132404181185,
+        "recall": 0.31718061674008813,
+        "f1": 0.44628099173553726,
+        "tp": 216,
+        "fp": 71,
+        "fn": 465,
+        "tn": 610,
+        "coverage": 0.9919236417033774,
+        "shared_with_published": false,
+        "f1_at_anchor": 0.352688645495074
+      },
+      "Falcon": {
+        "precision": 0.7167235494880546,
+        "recall": 0.30837004405286345,
+        "f1": 0.431211498973306,
+        "tp": 210,
+        "fp": 83,
+        "fn": 471,
+        "tn": 598,
+        "coverage": 1.0,
+        "shared_with_published": false,
+        "f1_at_anchor": 0.32959475187810816
+      }
+    },
+    "stacked": {
+      "precision": 0.7693798449612403,
+      "recall": 0.5829662261380323,
+      "f1": 0.6633249791144529,
+      "tp": 397,
+      "fp": 119,
+      "fn": 284,
+      "tn": 562,
+      "coverage": 1.0,
+      "f1_at_anchor": 0.48785303518788264
+    },
+    "unweighted": {
+      "precision": 0.7990196078431373,
+      "recall": 0.2393538913362702,
+      "f1": 0.3683615819209039,
+      "tp": 163,
+      "fp": 41,
+      "fn": 518,
+      "tn": 640,
+      "coverage": 1.0,
+      "f1_at_anchor": 0.31548272750008155
+    },
+    "sonnet": {
+      "precision": 0.9436008676789588,
+      "recall": 0.6387665198237885,
+      "f1": 0.7618213660245184,
+      "tp": 435,
+      "fp": 26,
+      "fn": 246,
+      "tn": 655,
+      "coverage": 1.0,
+      "f1_at_anchor": 0.7038451049904554
+    },
+    "best_member": {
+      "tag": "Llama",
+      "f1": 0.6253101736972705,
+      "f1_at_anchor": 0.43158158061846935
+    },
+    "anchor_prevalence": 0.178
+  }
+}

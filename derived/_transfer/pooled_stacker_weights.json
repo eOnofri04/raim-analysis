@@ -1,0 +1,36 @@
+{
+  "note": "In-sample pooled fit -- coefficients for inspection ONLY; in-sample kappa is not honest (use the LODO per-dataset JSONs).",
+  "datasets": [
+    "medhallu",
+    "ragtruth",
+    "aggrefact_xsum",
+    "aggrefact_wice"
+  ],
+  "n_pooled": 4130,
+  "models": [
+    "01-ai/Yi-1.5-9B-Chat-16K",
+    "CohereLabs/c4ai-command-r7b-12-2024",
+    "Qwen/Qwen2.5-7B-Instruct",
+    "google/gemma-2-9b-it",
+    "ibm-granite/granite-3.3-8b-instruct",
+    "meta-llama/Llama-3.1-8B-Instruct",
+    "microsoft/Phi-4-mini-instruct",
+    "mistralai/Mistral-7B-Instruct-v0.3",
+    "tiiuae/Falcon3-7B-Instruct",
+    "zai-org/glm-4-9b-chat-hf"
+  ],
+  "interface": "binary",
+  "coefficients": {
+    "01-ai/Yi-1.5-9B-Chat-16K": 0.49297459764281104,
+    "CohereLabs/c4ai-command-r7b-12-2024": -0.5242850383078048,
+    "Qwen/Qwen2.5-7B-Instruct": 0.3718236036601879,
+    "google/gemma-2-9b-it": 1.0912347113224665,
+    "ibm-granite/granite-3.3-8b-instruct": 0.5049050399774612,
+    "meta-llama/Llama-3.1-8B-Instruct": 0.8785562489287263,
+    "microsoft/Phi-4-mini-instruct": 0.7792917864331038,
+    "mistralai/Mistral-7B-Instruct-v0.3": -0.32423672926145203,
+    "tiiuae/Falcon3-7B-Instruct": 0.5286040657128088,
+    "zai-org/glm-4-9b-chat-hf": 0.38169971599147856
+  },
+  "intercept": -1.4773822671731551
+}
