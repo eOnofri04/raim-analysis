@@ -108,6 +108,7 @@ python3 -m venv .venv
 ```
 
 The versions in `requirements.txt` are the ones every artefact here was built under (Python 3.13); they also install, and every check passes, under Python 3.12 and 3.14.
+They need Python 3.12 or later, so `python3` above must name such an interpreter; where the system one is older (Ubuntu 22.04 e.g. ships 3.10), use a newer one explicitly, for instance `python3.12 -m venv .venv` or a conda base Python.
 Timings below span the three machines tested, from a recent laptop to a low-capability Linux server: `make check` 3 to 10 minutes, `make derive` and `make derivecheck` twenty minutes to about an hour.
 The figures are set through LaTeX, so `make figures` and `make figcheck` also need `pdflatex`, and `make figcheck` needs `pdftoppm` (poppler) as well.
 Besides `times`, `amsmath` and `xcolor`, matplotlib's pgf backend loads `pgf`, `geometry`, `hyperref`, `underscore` and KOMA-Script's `scrextend`, its usetex mode needs `type1cm` and `type1ec`, and Times needs its Type 1 fonts.
