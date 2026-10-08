@@ -12,6 +12,18 @@ This is the reproducible half of the companion code for the paper:
 > _Computer, Electrical and Mathematical Sciences and Engineering (CEMSE) Division, King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia_  
 > [arXiv:2609.39229](https://arxiv.org/abs/2609.39229)
 
+![RAIM overview, Figure 1 of the paper, with the aggregation and the comparisons in colour](assets/overview.png)
+
+_Figure 1 of the paper, redrawn.
+In colour, what this repository covers: the aggregation, the admissibility test, and the comparisons with the frontier judge and the best single judge; the benchmark item and the panel, in grey, belong to [`raim-verdicts`](https://github.com/eOnofri04/raim-verdicts), which also records the frontier judge's verdicts.
+The double arrows are the paired comparisons, each labelled with the share of datasets on which Δκ ≥ 0._
+
+| Frontier quality retained | Cost per 1,000 items | Break-even against the API |
+|---|---|---|
+| a median 93% of Claude Sonnet's Cohen's κ, giving up 2.9 points of balanced accuracy on average | \$0.039 against \$2.52, some 64× cheaper | 40,309 to 80,618 items, for a one-time calibration of 50 to 100 labelled records |
+
+_The paper's headline numbers; `make numbers` prints each beside the file and key it is read from ([Numbers in the text](#numbers-in-the-text))._
+
 Large language models are increasingly used as automatic judges of whether a generated response is faithful to its source, yet the strongest judges are proprietary and costly to run at scale.
 RAIM asks whether a panel of ten cheap, open-weight small judges can be aggregated into a viable alternative to a single strong judge, and, more usefully, *when* it can.
 Its companion, [`raim-verdicts`](https://github.com/eOnofri04/raim-verdicts), ran those judges over eight faithfulness benchmarks and recorded what each said about each item.
@@ -28,16 +40,27 @@ The paper's _Code and data availability_ section gives a general overview of bot
 
 ## Table of contents
 
-1. [Layout](#layout)
-2. [Installation](#installation)
-3. [Reproducing the paper](#reproducing-the-paper)
-4. [Numbers in the text](#numbers-in-the-text)
-5. [Other commands](#other-commands)
-6. [The verdict mirror](#the-verdict-mirror)
-7. [Artefact zones](#artefact-zones)
-8. [Citation](#citation)
-9. [Licence](#licence)
-10. [Contact](#contact)
+1. [Results at a glance](#results-at-a-glance)
+2. [Layout](#layout)
+3. [Installation](#installation)
+4. [Reproducing the paper](#reproducing-the-paper)
+5. [Numbers in the text](#numbers-in-the-text)
+6. [Other commands](#other-commands)
+7. [The verdict mirror](#the-verdict-mirror)
+8. [Artefact zones](#artefact-zones)
+9. [Citation](#citation)
+10. [Licence](#licence)
+11. [Contact](#contact)
+
+## Results at a glance
+
+![Figure 3 of the paper: the regime plane and the paired differences against three comparators](assets/results.png)
+
+_Figure 3 of the paper, the regime ordering.
+**(a)** The eight datasets, placed by the members' mean pairwise error-correlation (x-axis) against the number of members reaching κ ≥ 0.30 (y-axis); the gold lines are the admissibility thresholds, and bound the shaded admissible quadrant.
+**(b)** The panel's paired difference in Cohen's κ against the CV-best single judge, the average member, and the frontier judge, per dataset, with 95% paired cluster-bootstrap intervals._
+
+`paper_figures.py` draws it from `derived/` as `scripts/figures/fig_regimeforest.pdf`, which `make figcheck` compares by pixel; the image above is that PDF, rasterised.
 
 ## Layout
 
