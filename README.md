@@ -24,6 +24,8 @@ The cut between the two is **irreproducible-for-a-reader versus reproducible-fro
 Nothing here reaches into the measurement repository, by import or by invocation: the judgements cross over as the committed mirror under `verdicts/`.
 The paper's _Code and data availability_ section gives a general overview of both repositories.
 
+`QUICKSTART.md` is the short version of this page: the three commands that reproduce the paper, and where to start when tracing a number back to its source.
+
 ## Table of contents
 
 1. [Layout](#layout)
@@ -183,6 +185,8 @@ One dataset can be re-derived on its own, in one or two minutes rather than twen
 PY=../.venv/bin/python3 DERIVE_OUT=/tmp/derived bash derive.sh medhallu
 ../.venv/bin/python3 derivecheck.py --new /tmp/derived --ref ../derived   # the files of the other datasets show as "only in the reference"
 ```
+
+The comparison therefore exits 1, because of those files; the three of the dataset re-derived should read identical.
 
 Pass `DERIVE_OUT`, or `derive.sh` rewrites the shipped `derived/` in place.
 

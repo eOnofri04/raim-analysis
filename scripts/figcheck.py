@@ -87,6 +87,9 @@ def main() -> int:
     ap.add_argument("--against", type=Path, default=None, metavar="DIR",
                     help="compare against the PDFs in DIR instead of against a git "
                          "revision")
+    ap.add_argument("--label", default=None, metavar="TEXT",
+                    help="how the summary names what was compared against (default: "
+                         "the --against directory, or the revision)")
     ap.add_argument("--tolerance", type=float, default=0.0, metavar="FRAC",
                     help="report a figure whose share of differing pixels is below FRAC "
                          "(e.g. 0.001 for 0.1%%) as MINIMAL, not failing the run")
@@ -141,10 +144,10 @@ def main() -> int:
             print(f"           {notes[rel]}")
     for rel in missing:
         print(f"NEW/ERR    {rel}")
-    against = str(args.against) if args.against else args.rev
+    against = args.label or (str(args.against) if args.against else args.rev)
     tol = (f", {len(minimal)} minimal (under {100 * args.tolerance:g}% of pixels)"
            if args.tolerance else "")
-    print(f"\n{len(same)} figure(s) identical to {against} (regeneration churn only){tol}, "
+    print(f"\n{len(same)} figure(s) in figures/ identical to {against} (regeneration churn only){tol}, "
           f"{len(changed)} genuinely changed, {len(missing)} new or unreadable.")
     # A figure absent from the directory compared against is a failure of it; a figure
     # absent from an older revision is simply new, which is why only --against

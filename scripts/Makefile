@@ -185,7 +185,7 @@ figcheck:
 	  ok=1; \
 	  echo "-- zone 4: the figures, by pixel"; \
 	  rm -rf figcheck-diffs; \
-	  $(PY) figcheck.py --against $$tmp --tolerance $(FIGTOL) --diffs figcheck-diffs || ok=0; \
+	  $(PY) figcheck.py --against $$tmp --label "a fresh regeneration" --tolerance $(FIGTOL) --diffs figcheck-diffs || ok=0; \
 	  if [ -d figcheck-diffs ]; then echo "   the differing pixels, in red: scripts/figcheck-diffs/"; fi; \
 	  echo "-- zone 4: the dumps beside them"; \
 	  $(PY) derivecheck.py --new $$tmp --ref reports --patterns '*.json' \

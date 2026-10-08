@@ -23,6 +23,7 @@ make figcheck PY=../.venv/bin/python3   # under a minute: the figures, compared 
 ```
 
 `tables/` and `figures/` are shipped as the paper used them, and both checks compare against them without writing anything; they exit non-zero if anything moved.
+The scratch trees go to the system's temporary directory (`mktemp -d`, so `TMPDIR` moves them), and are removed when the check ends.
 `make tables` and `make figures` rebuild the same artefacts in place, overwriting the shipped copies, so run them after the checks rather than before: a check run afterwards would only compare the regeneration with itself.
 
 ## What lives where
@@ -63,6 +64,7 @@ make derive      PY=../.venv/bin/python3   # rewrite derived/ from the verdicts,
 make derivecheck PY=../.venv/bin/python3   # the same into a scratch tree, diffed against derived/; non-zero on any change
 ```
 
+Its scratch tree is kept, and named, only when the comparison fails, so that `make derivediff` can re-read it without re-deriving.
 It compares floats to a tolerance (`THRESHOLD`, default `1e-8`), because the last bits of the fits depend on the machine's BLAS; integers, strings and key sets are still compared exactly.
 
 ## Which measurements am I looking at?

@@ -591,7 +591,7 @@ def write_loo_summary():
     dest = REPORTS
     dest.mkdir(parents=True, exist_ok=True)
     (dest / "loo_concentration.json").write_text(json.dumps(summary, indent=2) + "\n")
-    print(f"wrote reports/loo_concentration.json")
+    print(f"wrote {dest.name}/loo_concentration.json")
     return summary
 
 
